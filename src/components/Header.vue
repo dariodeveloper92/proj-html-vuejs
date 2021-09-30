@@ -18,6 +18,9 @@
             </ul>
         </div>
         <div id="header-bottom">
+            <!-- <a href="#">
+                <img alt="jumbotron" src="../assets/bg-2.jpg">
+            </a> -->
             <section class="section-top">
                 <ul class="horizontal-space">
                     <li class="li-horizontal">
@@ -48,7 +51,6 @@
                     </li>
                 </ul>
             </section>
-            <section class="section-bottom"></section>
         </div>
     </header>
 </template>
