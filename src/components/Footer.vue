@@ -25,7 +25,7 @@
                     <li>
                         <a class="li-horizontal"  href="#">
                             <i class="fas fa-map-marker-alt"></i>
-                        <h5>Main Avenue, p87</h5>
+                        <h5>Main Avenue, 987</h5>
                         </a>
                     </li>
                     <li>

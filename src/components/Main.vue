@@ -171,30 +171,48 @@
         </div>
         <!-- main-fourth -->
         <div id="main-fourth">
-            <section class="section-main-fourth">
-                <ul>
-                    <li class="li-vertical">
-                        <h5> WE LIKE WHAT WE DO </h5>
-                    </li>
-                    <li class="li-vertical">
-                        <h1> Team of Experts </h1>
-                    </li>
-                    <li class="li-vertical">
-                        <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
-                    </li>
-                </ul>
-            </section>
-            <section class="text-main-fourth">
-                <ul>
-                    <li>
-                        <h2>Services</h2>
-                        <p>Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
-                        <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu.</p>
-                        <p>Duis ut hendreit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenantis a dui et laoreet.</p>
-                        <h4>T. Johnson</h4>
-                    </li>
-                </ul>
-            </section>
+            <div class="container-main-fourth">
+                
+                <section>
+                    <ul>
+                        <li>
+                           
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="container-main-sixth">
+                <section class="section-main-sixth-left">
+                    <ul>
+                        <li class="li-vertical">
+                            <h5> WE LIKE WHAT WE DO </h5>
+                        </li>
+                        <li class="li-vertical">
+                            <h1> Team of Experts </h1>
+                        </li>
+                        <li class="li-vertical">
+                            <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-main-sixth-right">
+                    <div class="text-main-fourth">
+                        <ul>
+                            <li class="li-vertical">
+                                <h2>Services</h2>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
+                                <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu.</p>
+                                <p>Duis ut hendreit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenantis a dui et laoreet.</p>
+                                <h4>T. Johnson</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <!-- MODIFICARE DA QUI ----------------------------------------------------------------->
             <section>
                 <ul>
                     <li>
@@ -205,6 +223,7 @@
             </section>
             
         </div>
+        <!-- MODIFICARE A QUI ----------------------------------------------------------------->
         <!-- main-fifth -->
         <div id="main-fifth">
             <section class="section-center">
@@ -235,11 +254,98 @@
         </div>
         <!-- main-sixth -->
         <div id="main-sixth">
-            
+            <div class="container-main-sixth">
+                <section class="section-main-sixth-left">
+                    <ul>
+                        <li class="li-vertical">
+                            <h5> NEWSLETTER </h5>
+                        </li>
+                        <li class="li-vertical">
+                            <h1> Know First </h1>
+                        </li>
+                        <li class="li-vertical">
+                            <p>Follow closely and receive content about our company and the news of the current market.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-main-sixth-right">
+                    <ul>
+                        <li class="li-vertical">
+                            <input type="text" placeholder="Name">
+                        </li>
+                        <li>
+                            <input type="text" placeholder="Email">
+                        </li>
+                        <li>
+                            <button>SUBSCRIBE</button>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
         <!-- main-seventh -->
         <div id="main-seventh">
-            
+            <div class="container-main-sixth">
+                <section class="section-main-sixth-left">
+                    <ul>
+                        <li class="li-vertical">
+                            <h5> SEND A MESSAGE </h5>
+                        </li>
+                        <li class="li-vertical">
+                            <h1> Get in Touch </h1>
+                        </li>
+                        <li class="li-vertical">
+                            <p>We will respond to your message as soon as possible.</p>
+                        </li>
+                        <li class="li-vertical">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                        </li>
+                        <li>
+                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="More Info">
+                        </li>
+                        <li>
+                            <input type="message" placeholder="Message">
+                        </li>
+                        <li>
+                            <button>SUBSCRIBE</button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-main-sixth-right">
+                    <ul>
+                        <li>
+                            <h2>Example Inc.</h2>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit.</p>
+                            <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>
+                        </li>
+                        <li>
+                            <a class="li-horizontal" href="#">
+                                <i class="fas fa-phone-alt"></i>
+                                <h5>+1(305)1234-5678</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="li-horizontal"  href="#">
+                                <i class="fas fa-envelope"></i>
+                                <h5>hello@example.com</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="li-horizontal"  href="#">
+                                <i class="fas fa-map-marker-alt"></i>
+                            <h5>Main Avenue, 987</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <button class="padding"> GET IN TOUCH </button>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
     </main>
 </template>
@@ -308,20 +414,7 @@ export default {
         display: flex;
         justify-content: space-around;
     }
-
-    .section-main-fourth {
-        display: flex;
-        justify-content: center;
-        width: 500px;
-    }
-
-    .text-main-fourth {
-        width: 250px;
-        background-color: green;
-        border-radius: 3px;
-        display: flex;
-    }
-
+ 
     /* main-fifth--------------------------------------- */
     #main-fifth {
         background-color: gold;
@@ -341,6 +434,33 @@ export default {
     /* main-sixth--------------------------------------- */
     #main-sixth {
         background-color: tomato;
+    }
+
+     .container-main-sixth {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .section-main-sixth-left {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .section-main-sixth-right {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+
+    .text-main-fourth {
+        width: 250px;
+        background-color: green;
+        border-radius: 3px;
+        display: flex;
     }
     /* main-seventh--------------------------------------- */
     #main-seventh {
