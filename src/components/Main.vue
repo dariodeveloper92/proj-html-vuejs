@@ -171,11 +171,67 @@
         </div>
         <!-- main-fourth -->
         <div id="main-fourth">
+            <section class="section-main-fourth">
+                <ul>
+                    <li class="li-vertical">
+                        <h5> WE LIKE WHAT WE DO </h5>
+                    </li>
+                    <li class="li-vertical">
+                        <h1> Team of Experts </h1>
+                    </li>
+                    <li class="li-vertical">
+                        <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="text-main-fourth">
+                <ul>
+                    <li>
+                        <h2>Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
+                        <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu.</p>
+                        <p>Duis ut hendreit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenantis a dui et laoreet.</p>
+                        <h4>T. Johnson</h4>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <h2>David Cooper</h2>
+                        <h4>CTO & CO-FOUNDER</h4>
+                    </li>
+                </ul>
+            </section>
             
         </div>
         <!-- main-fifth -->
         <div id="main-fifth">
-            
+            <section class="section-center">
+                <ul>
+                    <li class="li-vertical">
+                        <h5> OUR EDITORIAL CONTENT </h5>
+                    </li>
+                    <li class="li-vertical">
+                        <h1> Latest News </h1>
+                    </li>
+                    <li class="li-vertical">
+                        <p>Every week we publish content about what is best in the business world.</p>
+                        <button> SEE ALL </button>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-img">
+                <ul>
+                    <li class="li-vertical">
+                        <a href="#">
+                            <img class="img-news" alt="news 1" src="../assets/news-1.jpg">
+                            <img class="img-news" alt="news 1" src="../assets/news-2.jpg">
+                            <img class="img-news" alt="news 1" src="../assets/news-3.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
         <!-- main-sixth -->
         <div id="main-sixth">
@@ -248,11 +304,39 @@ export default {
     /* main-fourth--------------------------------------- */
     #main-fourth {
         background-color: plum;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-main-fourth {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .text-main-fourth {
+        width: 250px;
+        background-color: green;
+        border-radius: 3px;
+        display: flex;
     }
 
     /* main-fifth--------------------------------------- */
     #main-fifth {
         background-color: gold;
+    }
+
+    .section-img {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-news {
+        object-fit: contain;
+        width: 25%;
+        border-radius: 20px;
+        padding: 10px;
     }
     /* main-sixth--------------------------------------- */
     #main-sixth {

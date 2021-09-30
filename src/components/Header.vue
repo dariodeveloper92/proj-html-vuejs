@@ -91,48 +91,6 @@ export default {
     }
 
     /* common---------------------------------------- */
-    .horizontal-space {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    /* .vertical-space {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        align-content: space-around;
-        justify-items: center;
-    } */
-
-    .li-horizontal {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        left: 8%;
-    }
-
-    .li-vertical {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    i {
-        color: white;
-        padding: 10px;
-    }
-
-    h4 {
-        color: white;
-        padding: 5px;
-    }
-
-    .padding {
-        padding: 5px;
-    }
+    
 
 </style>
