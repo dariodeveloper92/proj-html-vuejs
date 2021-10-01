@@ -18,39 +18,39 @@
             </ul>
         </div>
         <div id="header-bottom">
-            <!-- <a href="#">
-                <img alt="jumbotron" src="../assets/bg-2.jpg">
-            </a> -->
-            <section class="section-top">
-                <ul class="horizontal-space">
-                    <li class="li-horizontal">
-                        <h3>NEXGEN</h3>
-                    </li>
-                    <li class="li-horizontal">
-                        <h4>HOME</h4>
-                        <h4>ABOUT</h4>
-                        <h4>SERVICES</h4>
-                        <h4>TEAM</h4>
-                        <h4>BLOG</h4>
-                        <i class="far fa-user"></i>
-                        <button> GET IN TOUCH </button>
-                    </li>
-                </ul>
-            </section>
-            <section class="section-center">
-                <ul>
-                    <li class="li-vertical">
-                        <h1> Financial Risk </h1>
-                    </li>
-                    <li class="li-vertical">
-                        <p>The right putcomes depend on continuous rigor in governance, models, and, processes across the finance function.</p>
-                    </li>
-                    <li class="li-vertical">
-                        <button class="padding"> GET IN TOUCH </button>
-                        <button> READ MORE </button>
-                    </li>
-                </ul>
-            </section>
+            <div id="container-jumbotron">
+                <img class="img-jumbotron" alt="jumbotron" src="../assets/bg-2.jpg">
+                <section class="section-top">
+                    <ul class="horizontal-space">
+                        <li class="li-horizontal">
+                            <h3>NEXGEN</h3>
+                        </li>
+                        <li class="li-horizontal">
+                            <h4>HOME</h4>
+                            <h4>ABOUT</h4>
+                            <h4>SERVICES</h4>
+                            <h4>TEAM</h4>
+                            <h4>BLOG</h4>
+                            <i class="far fa-user"></i>
+                            <button> GET IN TOUCH </button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-center">
+                    <ul>
+                        <li class="li-vertical">
+                            <h1> Financial Risk </h1>
+                        </li>
+                        <li class="li-vertical">
+                            <p>The right putcomes depend on continuous rigor in governance, models, and, processes across the finance function.</p>
+                        </li>
+                        <li class="li-vertical">
+                            <button class="padding"> GET IN TOUCH </button>
+                            <button> READ MORE </button>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
     </header>
 </template>
@@ -79,15 +79,30 @@ export default {
     /* header-bottom---------------------------------- */
     #header-bottom {
         width: 100%;
-        height: 40vh;
+        height: 100%;
         background-color: red;
     }
 
+    #container-jumbotron {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    .img-jumbotron {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .section-top,
     .section-center {
+        position: relative;
         display: flex;
         justify-content: center;
-        /* align-content: space-around;
-        justify-content: center; */
     }
 
     /* common---------------------------------------- */
