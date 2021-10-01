@@ -81,7 +81,7 @@
                 <ul>
                     <li class="li-vertical">
                         <p>We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
-                        <button> SEE ALL </button>
+                        <button class="transparentButton"> SEE ALL </button>
                     </li>
                 </ul>
             </section>
@@ -241,7 +241,7 @@
                     </li>
                     <li class="li-vertical">
                         <p>Every week we publish content about what is best in the business world.</p>
-                        <button> SEE ALL </button>
+                        <button class="darkGreenButton"> SEE ALL </button>
                     </li>
                 </ul>
             </section>
@@ -295,7 +295,7 @@
                             <input type="text" placeholder="Email">
                         </li>
                         <li>
-                            <button>SUBSCRIBE</button>
+                            <button class="greenButton">SUBSCRIBE</button>
                         </li>
                     </ul>
                 </section>
@@ -327,7 +327,7 @@
                             <input type="message" placeholder="Message">
                         </li>
                         <li>
-                            <button>SUBSCRIBE</button>
+                            <button class="darkGreenButton">SEND</button>
                         </li>
                     </ul>
                 </section>
@@ -359,7 +359,7 @@
                             </a>
                         </li>
                         <li>
-                            <button class="padding"> GET IN TOUCH </button>
+                            <button class="transparentButton greenPalette"> VIEW MAP </button>
                         </li>
                     </ul>
                 </section>

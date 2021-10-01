@@ -32,7 +32,7 @@
                             <h4>TEAM</h4>
                             <h4>BLOG</h4>
                             <i class="far fa-user"></i>
-                            <button> GET IN TOUCH </button>
+                            <button class="greenButton"> GET IN TOUCH </button>
                         </li>
                     </ul>
                 </section>
@@ -45,8 +45,8 @@
                             <p>The right putcomes depend on continuous rigor in governance, models, and, processes across the finance function.</p>
                         </li>
                         <li class="li-vertical">
-                            <button class="padding"> GET IN TOUCH </button>
-                            <button> READ MORE </button>
+                            <button class="greenButton padding"> GET IN TOUCH </button>
+                            <button class="transparentButton"> READ MORE </button>
                         </li>
                     </ul>
                 </section>

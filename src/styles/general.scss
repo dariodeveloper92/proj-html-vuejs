@@ -70,6 +70,35 @@ footer {
         align-items: center;
     }
 
+    /* Button Palette---------------------------------------- */
+    .greenButton {
+        padding: 10px;
+        background-color: $surfie-green;
+        border: 3px solid $surfie-green;
+        color: white;
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    .darkGreenButton {
+        padding: 10px;
+        background-color: $blue-lagoon;
+        border: 3px solid $blue-lagoon;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .transparentButton {
+        padding: 10px;
+        background-color: transparent;
+        border: 3px solid $surfie-green;
+        color: white;
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    /* Colors Palette---------------------------------------- */
     .greenPalette {
         color: $surfie-green;
     }
