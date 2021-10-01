@@ -23,42 +23,47 @@
         </div>
         <!-- main-second -->
         <div id="main-second">
-            <section class="section-center">
-                <ul>
-                    <li class="li-vertical">
-                        <h5> WHAT ARE WE DOING </h5>
-                    </li>
-                    <li class="li-vertical">
-                        <h1> Results in Numbers </h1>
-                    </li>
-                </ul>
-            </section>
-            <section class="box-numbers">
-                <ul>
-                    <li>
-                        <h1>128</h1>
-                        <h2>Certifications</h2>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>230</h1>
-                        <h2>Employees</h2>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>517</h1>
-                        <h2>Customers</h2>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>94</h1>
-                        <h2>Countries Served</h2>
-                    </li>
-                </ul>
-            </section>
+            <div id="container-jumbotron">
+                <img class="img-jumbotron overlay" alt="jumbotron" src="../assets/bg-9.jpg">
+                <section class="section-center">
+                    <ul>
+                        <li class="li-vertical greenPalette">
+                            <h5> WHAT ARE WE DOING </h5>
+                        </li>
+                        <li class="li-vertical">
+                            <h1> Results in Numbers </h1>
+                        </li>
+                    </ul>
+                </section>
+                <section class="box-numbers">
+                    <ul>
+                        <li>
+                            <h1 class="greenPalette">128</h1>
+                            <h2>Certifications</h2>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h1 class="greenPalette">230</h1>
+                            <h2>Employees</h2>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h1 class="greenPalette">517</h1>
+                            <h2>Customers</h2>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h1 class="greenPalette">94</h1>
+                            <h2>Countries Served</h2>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            
         </div>
         <!-- main-third -->
         <div id="main-third">
@@ -84,8 +89,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-network-wired"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-network-wired greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -98,8 +103,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-briefcase"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-briefcase greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -112,8 +117,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-chart-bar"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-chart-bar greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -128,8 +133,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-plane"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-plane greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -142,8 +147,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-globe"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-globe greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -156,8 +161,8 @@
                 <section class="card">
                     <ul>
                         <li class="icons">
-                            <i class="fas fa-inbox"></i>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-inbox greenPalette"></i>
+                            <i class="fas fa-arrow-right greenPalette"></i>
                         </li>
                     </ul>
                     <ul>
@@ -185,7 +190,7 @@
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical">
+                        <li class="li-vertical greenPalette">
                             <h5> WE LIKE WHAT WE DO </h5>
                         </li>
                         <li class="li-vertical">
@@ -228,7 +233,7 @@
         <div id="main-fifth">
             <section class="section-center">
                 <ul>
-                    <li class="li-vertical">
+                    <li class="li-vertical greenPalette">
                         <h5> OUR EDITORIAL CONTENT </h5>
                     </li>
                     <li class="li-vertical">
@@ -240,7 +245,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="section-img">
+            <section class="section-img whitePalette">
                 <ul>
                     <li class="li-vertical">
                         <div class="img-character">
@@ -270,7 +275,7 @@
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical">
+                        <li class="li-vertical greenPalette">
                             <h5> NEWSLETTER </h5>
                         </li>
                         <li class="li-vertical">
@@ -301,7 +306,7 @@
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical">
+                        <li class="li-vertical greenPalette">
                             <h5> SEND A MESSAGE </h5>
                         </li>
                         <li class="li-vertical">
@@ -336,20 +341,20 @@
                             <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>
                         </li>
                         <li>
-                            <a class="li-horizontal" href="#">
-                                <i class="fas fa-phone-alt"></i>
+                            <a class="li-horizontal abbey" href="#">
+                                <i class="fas fa-phone-alt abbey"></i>
                                 <h5>+1(305)1234-5678</h5>
                             </a>
                         </li>
                         <li>
-                            <a class="li-horizontal"  href="#">
-                                <i class="fas fa-envelope"></i>
+                            <a class="li-horizontal abbey"  href="#">
+                                <i class="fas fa-envelope abbey"></i>
                                 <h5>hello@example.com</h5>
                             </a>
                         </li>
                         <li>
-                            <a class="li-horizontal"  href="#">
-                                <i class="fas fa-map-marker-alt"></i>
+                            <a class="li-horizontal abbey"  href="#">
+                                <i class="fas fa-map-marker-alt abbey"></i>
                             <h5>Main Avenue, 987</h5>
                             </a>
                         </li>
@@ -369,7 +374,8 @@ export default {
 }
 </script>
 
-<style>
+<style  lang="scss">
+@import '../styles/vars.scss';
     /* main--------------------------------------- */
     main {
         width: 100%;
@@ -379,7 +385,8 @@ export default {
 
     /* main-first--------------------------------------- */
     #main-first {
-        background-color: lime;
+        background-color: $white;
+        color: $abbey;
     }
     .box-img {
         object-fit: contain;
@@ -391,7 +398,14 @@ export default {
         background-color: lightblue;
     }
 
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
     .box-numbers {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -400,7 +414,7 @@ export default {
 
     /* main-third--------------------------------------- */
     #main-third {
-        background-color: sienna;
+        background-color: $shark;
         width: 100%;
     }
 
@@ -422,15 +436,25 @@ export default {
     
     /* main-fourth--------------------------------------- */
     #main-fourth {
-        background-color: plum;
+        background-color: $white;
+        color: black;
         width: 100%;
         display: flex;
         justify-content: space-around;
     }
+
+    .text-main-fourth {
+        width: 250px;
+        background-color: $surfie-green;
+        color: $white;
+        border-radius: 3px;
+        display: flex;
+    }
  
     /* main-fifth--------------------------------------- */
     #main-fifth {
-        background-color: gold;
+        background-color: $gray-nurse;
+        color: $abbey;
     }
 
     .section-img {
@@ -466,7 +490,7 @@ export default {
     }
     /* main-sixth--------------------------------------- */
     #main-sixth {
-        background-color: tomato;
+        background-color: $wood-smoke;
     }
 
      .container-main-sixth {
@@ -480,23 +504,22 @@ export default {
         display: flex;
         justify-content: center;
         width: 50%;
+        height: 60vh;
     }
 
     .section-main-sixth-right {
         display: flex;
         justify-content: center;
         width: 50%;
-    }
-
-
-    .text-main-fourth {
-        width: 250px;
-        background-color: green;
-        border-radius: 3px;
-        display: flex;
+        height: 60vh;
     }
     /* main-seventh--------------------------------------- */
     #main-seventh {
-        background-color: blueviolet;
+        background-color: $white;
+        color: $abbey;
+    }
+
+    .abbey {
+        color: $abbey;
     }
 </style>
