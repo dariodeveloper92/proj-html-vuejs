@@ -4,11 +4,11 @@
         <div id="main-first">
             <section class="section-center">
                 <ul>
-                    <li class="li-vertical greenPalette">
-                        <h6> INTRODUTION VIDEO </h6>
+                    <li class="li-vertical">
+                        <h5 class="little-title"> INTRODUTION VIDEO </h5>
                     </li>
                     <li class="li-vertical">
-                        <h1> Advisory Performance </h1>
+                        <h1 class="title"> Advisory Performance </h1>
                     </li>
                     <li class="li-vertical">
                         <p>Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making.</p>
@@ -28,10 +28,10 @@
                 <section class="section-center">
                     <ul>
                         <li class="li-vertical greenPalette">
-                            <h5> WHAT ARE WE DOING </h5>
+                            <h5  class="little-title"> WHAT ARE WE DOING </h5>
                         </li>
                         <li class="li-vertical">
-                            <h1> Results in Numbers </h1>
+                            <h1 class="title"> Results in Numbers </h1>
                         </li>
                     </ul>
                 </section>
@@ -70,10 +70,10 @@
             <section class="section-left">
                 <ul>
                     <li class="li-left greenPalette">
-                        <h5> OUR BUSINESS AREAS </h5>
+                        <h5 class="little-title"> OUR BUSINESS AREAS </h5>
                     </li>
                     <li class="li-left">
-                        <h1> Excellence in Services </h1>
+                        <h1 class="title"> Excellence in Services </h1>
                     </li>
                     <li class="li-left">
                         <p>We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
@@ -180,10 +180,10 @@
                 <section class="section-main-sixth-left">
                     <ul>
                         <li class="li-left greenPalette">
-                            <h5> WE LIKE WHAT WE DO </h5>
+                            <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
                         </li>
                         <li class="li-left">
-                            <h1> Team of Experts </h1>
+                            <h1 class="title"> Team of Experts </h1>
                         </li>
                         <li class="li-left">
                             <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
@@ -223,10 +223,10 @@
             <section class="section-left">
                 <ul>
                     <li class="li-left greenPalette">
-                        <h5> OUR EDITORIAL CONTENT </h5>
+                        <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
                     </li>
                     <li class="li-left">
-                        <h1> Latest News </h1>
+                        <h1 class="title"> Latest News </h1>
                     </li>
                     <li class="li-left">
                         <p>Every week we publish content about what is best in the business world.</p>
@@ -269,10 +269,10 @@
                 <section class="section-main-sixth-left">
                     <ul>
                         <li class="li-left greenPalette">
-                            <h5> NEWSLETTER </h5>
+                            <h5 class="little-title"> NEWSLETTER </h5>
                         </li>
                         <li class="li-left">
-                            <h1> Know First </h1>
+                            <h1 class="title"> Know First </h1>
                         </li>
                         <li class="li-left">
                             <p>Follow closely and receive content about our company and the news of the current market.</p>
@@ -300,10 +300,10 @@
                 <section class="section-main-sixth-left">
                     <ul>
                         <li class="li-left greenPalette">
-                            <h5> SEND A MESSAGE </h5>
+                            <h5 class="little-title"> SEND A MESSAGE </h5>
                         </li>
                         <li class="li-left">
-                            <h1> Get in Touch </h1>
+                            <h1 class="title"> Get in Touch </h1>
                         </li>
                         <li class="li-left">
                             <p>We will respond to your message as soon as possible.</p>

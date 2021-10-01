@@ -39,7 +39,7 @@
                 <section class="section-center">
                     <ul>
                         <li class="li-vertical">
-                            <h1> Financial Risk </h1>
+                            <h1 class="title"> Financial Risk </h1>
                         </li>
                         <li class="li-vertical">
                             <p>The right putcomes depend on continuous rigor in governance, models, and, processes across the finance function.</p>
