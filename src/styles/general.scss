@@ -49,18 +49,21 @@ footer {
         font-size: 30px;
     }
 
-    .width-input,
-    .x-width-input {
-        width: 350px;
-        height: 30px;
+    /* input ---------------------------------------- */
+    .width-input {
+        width: 200px;
+        padding: 10px 0;
         border-radius: 5px;
         background-color: $gray-nurse;
         border: 3px solid $gray-nurse;
     }
 
     .x-width-input {
-        width: 700px;
-        height: 80px;
+        width: 400px;
+        padding: 50px 0;
+        border-radius: 5px;
+        background-color: $gray-nurse;
+        border: 3px solid $gray-nurse;
     }
     
     /* Dimensione ---------------------------------------- */
@@ -107,10 +110,16 @@ footer {
         // text-align: center;
     }
 
+    .section-right {
+        //position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .li-right {
         position: absolute;
-        right: 10px;
-        bottom: 15px;
+        right: 22%;
+        bottom: 55%;
     }
 
     .li-left {
@@ -131,17 +140,42 @@ footer {
        text-align: center; 
     }
 
+    /* Box---------------------------------------- */
     .box-button {
         display: flex;
         justify-content: center;
     }
 
-    .box-main {
-        height: 80%;
-        width: 80%;
-        position: relative;
+    .container-cards {
         display: flex;
         justify-content: center;
+        padding: 10px;
+    }
+
+    .container-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-section {
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+    }
+
+    .box-cards {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        //padding: 10px;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+        background-color: $shark;
+        border-radius: 10px;
+        text-align: center;
     }
 
     /* Title---------------------------------------- */
