@@ -72,6 +72,10 @@ footer {
         position: relative;
     }
 
+    .height-medium-little {
+        height: 80vh;
+    }
+
     .height-medium {
         height: 90vh;
     }
@@ -122,6 +126,12 @@ footer {
         bottom: 55%;
     }
 
+    .li-right-button {
+        position: absolute;
+        right: 22%;
+        bottom: 70%;
+    }
+
     .li-left {
         display: flex;
         //text-align: center;
@@ -138,6 +148,10 @@ footer {
        display: flex;
        justify-content: space-around;
        text-align: center; 
+    }
+
+    .paragrafo {
+        width: 80%;
     }
 
     /* Box---------------------------------------- */

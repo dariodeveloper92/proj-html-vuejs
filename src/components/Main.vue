@@ -82,11 +82,13 @@
                                 <h1 class="title"> Excellence in Services </h1>
                             </li>
                             <li class="li-left">
-                                <p>We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
+                                <p class="paragrafo">We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
                             </li>
                         </ul>
+                    </section>
+                    <section class="section-right">
                         <ul>
-                            <li class="li-right">
+                            <li class="li-right-button">
                                 <button class="transparentButton"> SEE ALL </button>
                             </li>
                         </ul>
@@ -327,7 +329,7 @@
         </div>
         <!-- main-seventh -->
         <div id="main-seventh">
-            <div class="container-section">
+            <div class="container-section height-medium-little">
                 <div class="box-section">
                     <section class="section-main-sixth-left">
                         <ul>
@@ -529,14 +531,12 @@ export default {
         display: flex;
         justify-content: center;
         width: 50%;
-        height: 70vh;
     }
 
     .section-main-sixth-right {
         display: flex;
         justify-content: flex-end;
         width: 50%;
-        height: 70vh;
     }
     /* main-seventh--------------------------------------- */
     #main-seventh {
