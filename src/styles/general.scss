@@ -70,6 +70,30 @@ footer {
         align-items: center;
     }
 
+    .section-left {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        // text-align: center;
+    }
+
+    .li-right {
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+    }
+
+    .li-left {
+        display: flex;
+        //text-align: center;
+    }
+
+    .li-contacts {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
     /* Button Palette---------------------------------------- */
     .greenButton {
         padding: 10px;

@@ -67,20 +67,20 @@
         </div>
         <!-- main-third -->
         <div id="main-third">
-            <section class="section-center">
+            <section class="section-left">
                 <ul>
-                    <li class="li-vertical greenPalette">
+                    <li class="li-left greenPalette">
                         <h5> OUR BUSINESS AREAS </h5>
                     </li>
-                    <li class="li-vertical">
+                    <li class="li-left">
                         <h1> Excellence in Services </h1>
                     </li>
-                </ul>
-            </section>
-            <section class="box-numbers">
-                <ul>
-                    <li class="li-vertical">
+                    <li class="li-left">
                         <p>We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="li-right">
                         <button class="transparentButton"> SEE ALL </button>
                     </li>
                 </ul>
@@ -176,27 +176,16 @@
         </div>
         <!-- main-fourth -->
         <div id="main-fourth">
-            <div class="container-main-fourth">
-                
-                <section>
-                    <ul>
-                        <li>
-                           
-                        </li>
-                    </ul>
-                </section>
-            </div>
-
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical greenPalette">
+                        <li class="li-left greenPalette">
                             <h5> WE LIKE WHAT WE DO </h5>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <h1> Team of Experts </h1>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
                         </li>
                     </ul>
@@ -231,16 +220,20 @@
         <!-- MODIFICARE A QUI ----------------------------------------------------------------->
         <!-- main-fifth -->
         <div id="main-fifth">
-            <section class="section-center">
+            <section class="section-left">
                 <ul>
-                    <li class="li-vertical greenPalette">
+                    <li class="li-left greenPalette">
                         <h5> OUR EDITORIAL CONTENT </h5>
                     </li>
-                    <li class="li-vertical">
+                    <li class="li-left">
                         <h1> Latest News </h1>
                     </li>
-                    <li class="li-vertical">
+                    <li class="li-left">
                         <p>Every week we publish content about what is best in the business world.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="li-right">
                         <button class="darkGreenButton"> SEE ALL </button>
                     </li>
                 </ul>
@@ -275,20 +268,20 @@
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical greenPalette">
+                        <li class="li-left greenPalette">
                             <h5> NEWSLETTER </h5>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <h1> Know First </h1>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <p>Follow closely and receive content about our company and the news of the current market.</p>
                         </li>
                     </ul>
                 </section>
                 <section class="section-main-sixth-right">
                     <ul>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <input type="text" placeholder="Name">
                         </li>
                         <li>
@@ -306,16 +299,16 @@
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-vertical greenPalette">
+                        <li class="li-left greenPalette">
                             <h5> SEND A MESSAGE </h5>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <h1> Get in Touch </h1>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <p>We will respond to your message as soon as possible.</p>
                         </li>
-                        <li class="li-vertical">
+                        <li class="li-left">
                             <input type="text" placeholder="Name">
                             <input type="text" placeholder="Email">
                         </li>
@@ -341,19 +334,19 @@
                             <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>
                         </li>
                         <li>
-                            <a class="li-horizontal abbey" href="#">
+                            <a class="li-contacts abbey" href="#">
                                 <i class="fas fa-phone-alt abbey"></i>
                                 <h5>+1(305)1234-5678</h5>
                             </a>
                         </li>
                         <li>
-                            <a class="li-horizontal abbey"  href="#">
+                            <a class="li-contacts abbey"  href="#">
                                 <i class="fas fa-envelope abbey"></i>
                                 <h5>hello@example.com</h5>
                             </a>
                         </li>
                         <li>
-                            <a class="li-horizontal abbey"  href="#">
+                            <a class="li-contacts abbey"  href="#">
                                 <i class="fas fa-map-marker-alt abbey"></i>
                             <h5>Main Avenue, 987</h5>
                             </a>
@@ -414,7 +407,7 @@ export default {
 
     /* main-third--------------------------------------- */
     #main-third {
-        background-color: $shark;
+        background-color: $wood-smoke;
         width: 100%;
     }
 
@@ -429,7 +422,7 @@ export default {
     .card {
         width: 250px;
         height: 250px;
-        background-color: lightgray;
+        background-color: $shark;
         border-radius: 10px;
         text-align: center;
     }
@@ -483,10 +476,12 @@ export default {
     .text-img {
         position: absolute;
         bottom: 20px;
-        left: 10px;
         padding: 5px;
         max-width: 80%;
-        font-size: 20px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /* main-sixth--------------------------------------- */
     #main-sixth {
