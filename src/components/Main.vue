@@ -243,11 +243,24 @@
             <section class="section-img">
                 <ul>
                     <li class="li-vertical">
-                        <a href="#">
+                        <div class="img-character">
                             <img class="img-news" alt="news 1" src="../assets/news-1.jpg">
+                            <span class="text-img">
+                                <p>Increasing creativity is possible for everyone</p>
+                            </span>
+                        </div>
+                        <div class="img-character">
                             <img class="img-news" alt="news 1" src="../assets/news-2.jpg">
+                            <span class="text-img">
+                                <p>Because market research is part of the business plan</p>
+                            </span>
+                        </div>
+                        <div class="img-character">    
                             <img class="img-news" alt="news 1" src="../assets/news-3.jpg">
-                        </a>
+                            <span class="text-img">
+                                <p>Working from home is now a trend</p>
+                            </span>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -425,11 +438,31 @@ export default {
         justify-content: space-around;
     }
 
+    .img-character {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .img-news {
-        object-fit: contain;
-        width: 25%;
-        border-radius: 20px;
-        padding: 10px;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+    .text-img {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        padding: 5px;
+        max-width: 80%;
+        font-size: 20px;
     }
     /* main-sixth--------------------------------------- */
     #main-sixth {
