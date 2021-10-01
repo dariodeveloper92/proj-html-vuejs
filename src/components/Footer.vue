@@ -31,7 +31,7 @@
                                 </a>
                             </li>
                             <li>
-                                <button class="padding"> GET IN TOUCH </button>
+                                <button class="transparentButton"> GET IN TOUCH </button>
                             </li>
                         </ul>
                     </section>
@@ -125,13 +125,14 @@ export default {
         /* flex-wrap: wrap; */
     }
 
-    .section-nexgen,
+        .section-nexgen,
     .faq-about,
     .faq-services,
     .faq-support {
         width: 250px;
         height: 350px;
-        background-color: lightgray;
+        //background-color:opacity($color: #000000);
+        border: 3px solid gray; 
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -140,6 +141,10 @@ export default {
         position: relative;
     }
 
+    .section-nexgen {
+        background-color: transparent;
+        border: 3px solid transparent;
+    }
     /* footer-bottom----------------------------------- */
     #footer-bottom {
         width: 100%;

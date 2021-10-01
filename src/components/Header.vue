@@ -73,7 +73,7 @@ export default {
         width: 100%;
         height: 10vh;
         // background-color: blue;
-        background-color: $surfie-green;
+        background-color: $smalt-blue;
     }
     
     /* header-bottom---------------------------------- */

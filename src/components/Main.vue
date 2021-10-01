@@ -4,7 +4,7 @@
         <div id="main-first">
             <section class="section-center">
                 <ul>
-                    <li class="li-vertical">
+                    <li class="li-vertical greenPalette">
                         <h6> INTRODUTION VIDEO </h6>
                     </li>
                     <li class="li-vertical">
@@ -69,7 +69,7 @@
         <div id="main-third">
             <section class="section-center">
                 <ul>
-                    <li class="li-vertical">
+                    <li class="li-vertical greenPalette">
                         <h5> OUR BUSINESS AREAS </h5>
                     </li>
                     <li class="li-vertical">
