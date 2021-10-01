@@ -44,10 +44,12 @@
                         <li class="li-vertical">
                             <p>The right putcomes depend on continuous rigor in governance, models, and, processes across the finance function.</p>
                         </li>
-                        <li class="li-vertical">
-                            <button class="greenButton padding"> GET IN TOUCH </button>
-                            <button class="transparentButton"> READ MORE </button>
-                        </li>
+                        <div class="box-button">
+                            <div class="li-button">
+                                <button class="greenButton padding"> GET IN TOUCH </button>
+                                <button class="transparentButton"> READ MORE </button>
+                            </div>
+                        </div>
                     </ul>
                 </section>
             </div>

@@ -49,6 +49,34 @@ footer {
         font-size: 30px;
     }
 
+    .width-input,
+    .x-width-input {
+        width: 350px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: $gray-nurse;
+        border: 3px solid $gray-nurse;
+    }
+
+    .x-width-input {
+        width: 700px;
+        height: 80px;
+    }
+    
+    /* Dimensione ---------------------------------------- */
+    .height-small {
+        height: 60vh;
+        position: relative;
+    }
+
+    .height-medium {
+        height: 90vh;
+    }
+
+    .height-large {
+        height: 100vh;
+    }
+
     /* Posizionamento ---------------------------------------- */
     .horizontal-space {
         width: 80%;
@@ -96,9 +124,30 @@ footer {
         text-align: center;
     }
 
+    .li-button{
+       width: 50%;
+       display: flex;
+       justify-content: space-around;
+       text-align: center; 
+    }
+
+    .box-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-main {
+        height: 80%;
+        width: 80%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
     /* Title---------------------------------------- */
     .little-title {
-        color: $surfie-green;
+        color: $fountain-blue;
+
     }
 
     .title {
@@ -140,4 +189,8 @@ footer {
 
     .whitePalette {
         color: white;
+    }
+
+    .lightGreenPalette {
+       color: $fountain-blue;
     }

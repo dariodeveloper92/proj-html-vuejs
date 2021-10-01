@@ -2,7 +2,7 @@
     <main>
         <!-- main-first -->
         <div id="main-first">
-            <section class="section-center">
+            <section class="section-center height-medium">
                 <ul>
                     <li class="li-vertical">
                         <h5 class="little-title"> INTRODUTION VIDEO </h5>
@@ -23,11 +23,11 @@
         </div>
         <!-- main-second -->
         <div id="main-second">
-            <div id="container-jumbotron">
+            <div id="container-banner" class="height-small">
                 <img class="img-jumbotron overlay" alt="jumbotron" src="../assets/bg-9.jpg">
                 <section class="section-center">
                     <ul>
-                        <li class="li-vertical greenPalette">
+                        <li class="li-vertical">
                             <h5  class="little-title"> WHAT ARE WE DOING </h5>
                         </li>
                         <li class="li-vertical">
@@ -38,25 +38,25 @@
                 <section class="box-numbers">
                     <ul>
                         <li>
-                            <h1 class="greenPalette">128</h1>
+                            <h1 class="title lightGreenPalette">128</h1>
                             <h2>Certifications</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="greenPalette">230</h1>
+                            <h1 class="title lightGreenPalette">230</h1>
                             <h2>Employees</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="greenPalette">517</h1>
+                            <h1 class="title lightGreenPalette">517</h1>
                             <h2>Customers</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="greenPalette">94</h1>
+                            <h1 class="title lightGreenPalette">94</h1>
                             <h2>Countries Served</h2>
                         </li>
                     </ul>
@@ -69,7 +69,7 @@
         <div id="main-third">
             <section class="section-left">
                 <ul>
-                    <li class="li-left greenPalette">
+                    <li class="li-left">
                         <h5 class="little-title"> OUR BUSINESS AREAS </h5>
                     </li>
                     <li class="li-left">
@@ -175,11 +175,11 @@
             </div>
         </div>
         <!-- main-fourth -->
-        <div id="main-fourth">
+        <div id="main-fourth" class="height-medium">
             <div class="container-main-sixth">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-left greenPalette">
+                        <li class="li-left">
                             <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
                         </li>
                         <li class="li-left">
@@ -220,55 +220,57 @@
         <!-- MODIFICARE A QUI ----------------------------------------------------------------->
         <!-- main-fifth -->
         <div id="main-fifth">
-            <section class="section-left">
-                <ul>
-                    <li class="li-left greenPalette">
-                        <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
-                    </li>
-                    <li class="li-left">
-                        <h1 class="title"> Latest News </h1>
-                    </li>
-                    <li class="li-left">
-                        <p>Every week we publish content about what is best in the business world.</p>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="li-right">
-                        <button class="darkGreenButton"> SEE ALL </button>
-                    </li>
-                </ul>
-            </section>
-            <section class="section-img whitePalette">
-                <ul>
-                    <li class="li-vertical">
-                        <div class="img-character">
-                            <img class="img-news" alt="news 1" src="../assets/news-1.jpg">
-                            <span class="text-img">
-                                <p>Increasing creativity is possible for everyone</p>
-                            </span>
-                        </div>
-                        <div class="img-character">
-                            <img class="img-news" alt="news 1" src="../assets/news-2.jpg">
-                            <span class="text-img">
-                                <p>Because market research is part of the business plan</p>
-                            </span>
-                        </div>
-                        <div class="img-character">    
-                            <img class="img-news" alt="news 1" src="../assets/news-3.jpg">
-                            <span class="text-img">
-                                <p>Working from home is now a trend</p>
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+            <div class="box-main">
+                <section class="section-left">
+                    <ul>
+                        <li class="li-left">
+                            <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
+                        </li>
+                        <li class="li-left">
+                            <h1 class="title"> Latest News </h1>
+                        </li>
+                        <li class="li-left">
+                            <p>Every week we publish content about what is best in the business world.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="li-right">
+                            <button class="darkGreenButton"> SEE ALL </button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-img whitePalette">
+                    <ul>
+                        <li class="li-vertical">
+                            <div class="img-character">
+                                <img class="img-news" alt="news 1" src="../assets/news-1.jpg">
+                                <span class="text-img">
+                                    <p>Increasing creativity is possible for everyone</p>
+                                </span>
+                            </div>
+                            <div class="img-character">
+                                <img class="img-news" alt="news 1" src="../assets/news-2.jpg">
+                                <span class="text-img">
+                                    <p>Because market research is part of the business plan</p>
+                                </span>
+                            </div>
+                            <div class="img-character">    
+                                <img class="img-news" alt="news 1" src="../assets/news-3.jpg">
+                                <span class="text-img">
+                                    <p>Working from home is now a trend</p>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
         <!-- main-sixth -->
         <div id="main-sixth">
-            <div class="container-main-sixth">
+            <div class="container-main-sixth height-small">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-left greenPalette">
+                        <li class="li-left">
                             <h5 class="little-title"> NEWSLETTER </h5>
                         </li>
                         <li class="li-left">
@@ -282,10 +284,10 @@
                 <section class="section-main-sixth-right">
                     <ul>
                         <li class="li-left">
-                            <input type="text" placeholder="Name">
+                            <input class="width-input" type="text" placeholder="Name">
                         </li>
                         <li>
-                            <input type="text" placeholder="Email">
+                            <input class="width-input" type="text" placeholder="Email">
                         </li>
                         <li>
                             <button class="greenButton">SUBSCRIBE</button>
@@ -296,10 +298,10 @@
         </div>
         <!-- main-seventh -->
         <div id="main-seventh">
-            <div class="container-main-sixth">
+            <div class="container-main-sixth height-medium">
                 <section class="section-main-sixth-left">
                     <ul>
-                        <li class="li-left greenPalette">
+                        <li class="li-left">
                             <h5 class="little-title"> SEND A MESSAGE </h5>
                         </li>
                         <li class="li-left">
@@ -309,15 +311,15 @@
                             <p>We will respond to your message as soon as possible.</p>
                         </li>
                         <li class="li-left">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
+                            <input class="width-input" type="text" placeholder="Name">
+                            <input class="width-input" type="text" placeholder="Email">
                         </li>
                         <li>
-                            <input type="text" placeholder="Phone">
-                            <input type="text" placeholder="More Info">
+                            <input class="width-input" type="text" placeholder="Phone">
+                            <input class="width-input" type="text" placeholder="More Info">
                         </li>
                         <li>
-                            <input type="message" placeholder="Message">
+                            <input class="x-width-input" type="message" placeholder="Message">
                         </li>
                         <li>
                             <button class="darkGreenButton">SEND</button>
@@ -391,6 +393,11 @@ export default {
         background-color: lightblue;
     }
 
+    #container-banner {
+        width: 100%;
+        position: relative;
+    }
+
     .overlay {
         position: absolute;
         inset: 0;
@@ -409,6 +416,8 @@ export default {
     #main-third {
         background-color: $wood-smoke;
         width: 100%;
+        height: 100%;
+        position: relative;
     }
 
     .box-cards {
@@ -432,6 +441,7 @@ export default {
         background-color: $white;
         color: black;
         width: 100%;
+        position: relative;
         display: flex;
         justify-content: space-around;
     }
@@ -448,6 +458,9 @@ export default {
     #main-fifth {
         background-color: $gray-nurse;
         color: $abbey;
+        position: relative;
+        width: 100%;
+        height: 100%;
     }
 
     .section-img {
@@ -468,7 +481,7 @@ export default {
 
     .img-news {
     object-fit: contain;
-    width: 100%;
+    width: 70%;
     border-radius: 20px;
     padding: 10px;
     }
@@ -477,7 +490,7 @@ export default {
         position: absolute;
         bottom: 20px;
         padding: 5px;
-        max-width: 80%;
+        max-width: 70%;
         font-size: 25px;
         display: flex;
         justify-content: center;
