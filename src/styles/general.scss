@@ -18,379 +18,407 @@ footer {
     color: white;
 }
 
-    /* common---------------------------------------- */
-    li {
-        list-style: none;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    i {
-        color: white;
-        padding: 10px;
-    }
-
-    h4 {
-        color: white;
-        padding: 5px;
-    }
-
-    .padding {
-        padding: 5px;
-    }
-
-    .text-lorem {
-        font-size: 15px;
-        color: lightgray;
-    }
-
-    /* icons ---------------------------------------- */
-    .green-icon {
-        background-color: $gray-nurse;
-        color: $blue-lagoon;
-        border-radius: 50px;
-    }
-
-    .icons {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 30px;
-    }
-
-    .play-jumbotron {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .play {
-            position: absolute;
-            font-size: 50px;
-            color: white;
-            //background-color: transparent;
-        }
+/* common---------------------------------------- */
+li {
+    list-style: none;
 }
 
-    /* input ---------------------------------------- */
-    .width-input {
-        width: 190px;
-        padding: 10px 0;
-        border-radius: 2px;
-        background-color: $gray-nurse;
-        border: 3px solid $gray-nurse;
-    }
+a {
+    text-decoration: none;
+    color: white;
+}
 
-    .width-input-black {
-        width: 300px;
-        padding: 10px 0;
-        border-radius: 5px;
-        background-color: $shark;
-        border: 3px solid $shark;
-        border: 3;
-        padding: 10px;
-    }
+i {
+    color: white;
+    padding: 10px;
+}
 
-    .x-width-input {
-        width: 400px;
-        padding: 50px 0;
-        border-radius: 5px;
-        background-color: $gray-nurse;
-        border: 3px solid $gray-nurse;
-    }
-    
-    /* Dimensione ---------------------------------------- */
-    .height-small {
-        height: 60vh;
-        position: relative;
-    }
+h4 {
+    color: white;
+    padding: 5px;
+}
 
-    .height-medium-little {
-        height: 80vh;
-    }
+.padding {
+    padding: 5px;
+}
 
-    .height-medium {
-        height: 90vh;
-    }
+.text-lorem {
+    font-size: 15px;
+    color: lightgray;
+}
 
-    .height-large {
-        height: 100vh;
-    }
+.spaceToRight {
+    margin: 0 10px 0 0;
+}
 
-    /* Posizionamento ---------------------------------------- */
-    .horizontal-space {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+.marginButton {
+    margin: 20px 0;
+}
 
-    .li-horizontal {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        left: 8%;
-    }
+/* icons ---------------------------------------- */
+.green-icon {
+    background-color: $gray-nurse;
+    color: $blue-lagoon;
+    border-radius: 50px;
+}
 
-    .li-vertical {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
 
-    .section-left {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        // text-align: center;
-    }
+.play-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .section-right {
-        //position: relative;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .section-fifth {
-        position: relative;
-    }
-
-    .li-right {
+    .play {
         position: absolute;
-        right: 22%;
-        bottom: 55%;
-    }
-
-    .li-right-button {
-        position: absolute;
-        right: 22%;
-        bottom: 70%;
-    }
-
-    .li-left {
-        display: flex;
-        //text-align: center;
-    }
-
-    .li-contacts {
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-
-    .li-button{
-       width: 50%;
-       display: flex;
-       justify-content: space-around;
-       text-align: center; 
-    }
-
-    .li-input {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .paragrafo-third {
-        width: 90%;
-    }
-
-    .paragrafo-fifth {
-        width: 100%;
-    }
-
-    /* Box---------------------------------------- */
-    .box-button {
-        display: flex;
-        justify-content: center;
-    }
-
-    .container-cards {
-        display: flex;
-        justify-content: center;
-        padding: 10px 0;
-
-    }
-
-    .container-section {
-        display: flex;
-        justify-content: center;
-    }
-
-    .box-section {
-        display: flex;
-        justify-content: flex-start;
-        width: 70%;
-    }
-
-    .box-section-sixth {
-        display: flex;
-        justify-content: flex-start;
-        width: 50%;
-    }
-
-    .box-section-seventh {
-        display: flex;
-        justify-content: space-around;
-        width: 70%;
-    }
-    
-    .box-cards {
-        width: 70%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        width: 300px;
-        height: 200px;
-        background-color: $shark;
-        border-radius: 10px;
-        //border: 3px solid blue;
-        position: relative;
-    }
-
-    .box-team {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        //margin: 0 20%;
-    }
-
-    .teams {
-        width: 150px;
-        height: 150px;
-        border: 3px solid blue;
-        position: relative
-        margin 0 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        //padding: 10px 0;
-    }
-
-    .box-textButton {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .box-section-fifth {
-        //display: flex;
-        //justify-content: center;
-        width: 70%;
-    }
-    /* Title---------------------------------------- */
-    .little-title {
-        color: $fountain-blue;
-
-    }
-
-    .title {
-        font-size: 40px;
-    }
-
-    .title-team {
-        font-size: 20px;
-    }
-
-    .little-title-team {
-        font-size: 10px;
-        color: gray;
-    }
-
-    .title-space {
-        display: flex;
-        justify-content: flex-start;
-    }
-    
-    .green-title {
-        background-color: $gray-nurse;
-        color: $blue-lagoon;
-    }
-
-    .white-title {
-        background-color: $blue-lagoon;
+        font-size: 50px;
         color: white;
+        //background-color: transparent;
     }
+}
 
-    .green-subtitle {
-        background-color: $blue-lagoon;
-        color: $tradewind;
-    }
+/* input ---------------------------------------- */
+.width-input {
+    width: 190px;
+    padding: 10px 0;
+    border-radius: 2px;
+    background-color: $gray-nurse;
+    border: 3px solid $gray-nurse;
+}
 
-    /* Button Palette---------------------------------------- */
-    .greenButton {
-        padding: 10px;
-        background-color: $surfie-green;
-        border: 3px solid $surfie-green;
-        color: white;
-        border-radius: 5px;
-        width: 150px;
-    }
+.width-input-black {
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: $shark;
+    border: 3px solid $shark;
+    color: lightgray;
+    border: 3;
+    padding: 10px;
+}
 
-    .darkGreenButton {
-        padding: 10px;
-        background-color: $blue-lagoon;
-        border: 3px solid $blue-lagoon;
-        color: white;
-        border-radius: 5px;
-        width: 100px;
-    }
+.x-width-input {
+    width: 400px;
+    padding: 50px 0;
+    border-radius: 5px;
+    background-color: $gray-nurse;
+    border: 3px solid $gray-nurse;
+}
 
-    .transparentButton {
-        padding: 10px;
-        background-color: transparent;
-        border: 3px solid $surfie-green;
-        color: white;
-        border-radius: 5px;
-        width: 150px;
-    }
+/* Dimensione ---------------------------------------- */
+.height-small {
+    height: 60vh;
+    position: relative;
+}
 
-    /* Colors Palette---------------------------------------- */
-    .greenPalette {
-        color: $surfie-green;
-    }
+.height-medium-little {
+    height: 80vh;
+}
 
-    .whitePalette {
-        color: white;
-    }
+.height-medium {
+    height: 90vh;
+}
 
-    .lightGreenPalette {
-       color: $fountain-blue;
-    }
+.height-large {
+    height: 100vh;
+}
 
-    /* Img team---------------------------------------- */
-    .img-team {
-        width: 70%;
-        object-fit: contain;
-        border-radius: 10px;
-        //height: 100%;
-    }
+/* Posizionamento ---------------------------------------- */
+.horizontal-space {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-    .black_icon {
-        color: black;
-    }
+.li-horizontal {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 8%;
+}
 
-    /* jumbotron---------------------------------------- */
-    #container-jumbotron-footer {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.li-vertical {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+.section-left {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    // text-align: center;
+}
 
+.section-right {
+    //position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-fifth {
+    position: relative;
+}
+
+.li-right {
+    position: absolute;
+    right: 22%;
+    bottom: 55%;
+}
+
+.li-right-button {
+    position: absolute;
+    right: 22%;
+    bottom: 70%;
+}
+
+.li-left {
+    display: flex;
+    //text-align: center;
+}
+
+.li-contacts {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.li-button{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.li-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragrafo-third {
+    width: 90%;
+}
+
+.paragrafo-fifth {
+    width: 100%;
+}
+
+.paragrafo-sixth {
+    width: 50%;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.paragrafo-seventh {
+    width: 100%;
+    font-size: 12px;
+    color: lightgray;
+}
+/* Box---------------------------------------- */
+.box-button {
+    display: flex;
+    justify-content: center;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.container-section {
+    display: flex;
+    justify-content: center;
+}
+
+.box-section {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.box-section-sixth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.box-section-seventh {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.box-cards {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: $shark;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.box-team {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    //margin: 0 20%;
+}
+
+.teams {
+    width: 150px;
+    height: 150px;
+    //border: 3px solid blue;
+    position: relative
+    margin 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.box-textButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-section-fifth {
+    //display: flex;
+    //justify-content: center;
+    width: 70%;
+}
+/* Title---------------------------------------- */
+.little-title {
+    color: $fountain-blue;
+
+}
+
+.title {
+    font-size: 40px;
+}
+
+.title-team {
+    font-size: 20px;
+}
+
+.little-title-team {
+    font-size: 10px;
+    color: gray;
+}
+
+.title-space {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.green-title {
+    background-color: $gray-nurse;
+    color: $blue-lagoon;
+}
+
+.white-title {
+    background-color: $blue-lagoon;
+    color: white;
+}
+
+.green-subtitle {
+    background-color: $blue-lagoon;
+    color: $tradewind;
+}
+
+/* Button Palette---------------------------------------- */
+.greenButton {
+    padding: 10px;
+    background-color: $surfie-green;
+    border: 3px solid $surfie-green;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.darkGreenButton {
+    padding: 10px;
+    background-color: $blue-lagoon;
+    border: 3px solid $blue-lagoon;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.transparentButton {
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid $surfie-green;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+
+/* Colors Palette---------------------------------------- */
+.greenPalette {
+    color: $surfie-green;
+}
+
+.whitePalette {
+    color: white;
+}
+
+.lightGreenPalette {
+    color: $fountain-blue;
+}
+
+.lightgray {
+    color: lightgray;
+}
+/* Img team---------------------------------------- */
+.img-team {
+    width: 70%;
+    object-fit: contain;
+    border-radius: 10px;
+    //height: 100%;
+}
+
+.black_icon {
+    color: black;
+}
+
+/* jumbotron---------------------------------------- */
+#container-jumbotron-footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -10,8 +10,8 @@
                                 <h5 class="little-title"> INTRODUTION VIDEO </h5>
                             </li>
                             <li class="li-vertical">
-                                <h1 class="title"> Advisory </h1>
-                                <h1 class="title green-title">Performance</h1>
+                                <h1 class="title spaceToRight"> Advisory </h1>
+                                <h1 class="title green-title spaceToRight">Performance</h1>
                             </li>
                             <li class="li-vertical">
                                 <p>Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making.</p>
@@ -81,8 +81,8 @@
                                 <h5 class="little-title"> OUR BUSINESS AREAS </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title"> Excellence in</h1>
-                                <h1 class="title white-title">Services</h1>
+                                <h1 class="title spaceToRight"> Excellence in</h1>
+                                <h1 class="title white-title spaceToRight">Services</h1>
                             </li>
                             <div class="box-textButton">
                                 <li>
@@ -196,8 +196,8 @@
                                     <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
                                 </li>
                                 <li class="li-left">
-                                    <h1 class="title green-title"> Team</h1>
-                                    <h1 class="title"> of Experts </h1>
+                                    <h1 class="title green-title spaceToRight"> Team</h1>
+                                    <h1 class="title spaceToRight"> of Experts </h1>
                                 </li>
                                 <li class="li-left">
                                     <p>Etyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
@@ -215,9 +215,9 @@
                                             <h5 class="little-title-team"> CTO & CO-FOUNDER </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f green-icon"></i>
-                                            <i class="fab fa-twitter green-icon"></i>
-                                            <i class="fab fa-linkedin-in green-icon"></i>
+                                            <i class="fab fa-facebook-f spaceToRight green-icon"></i>
+                                            <i class="fab fa-twitter spaceToRight green-icon"></i>
+                                            <i class="fab fa-linkedin-in spaceToRight green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -231,9 +231,9 @@
                                             <h5 class="little-title-team"> CHIEF PROCUREMENT </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f green-icon"></i>
-                                            <i class="fab fa-twitter green-icon"></i>
-                                            <i class="fab fa-linkedin-in green-icon"></i>
+                                            <i class="fab fa-facebook-f spaceToRight green-icon"></i>
+                                            <i class="fab fa-twitter spaceToRight green-icon"></i>
+                                            <i class="fab fa-linkedin-in spaceToRight green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -247,9 +247,9 @@
                                             <h5 class="little-title-team"> CHIEF MARKETING </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f green-icon"></i>
-                                            <i class="fab fa-twitter green-icon"></i>
-                                            <i class="fab fa-linkedin-in green-icon"></i>
+                                            <i class="fab fa-facebook-f spaceToRight green-icon"></i>
+                                            <i class="fab fa-twitter spaceToRight green-icon"></i>
+                                            <i class="fab fa-linkedin-in spaceToRight green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -263,9 +263,9 @@
                                             <h5 class="little-title-team"> CEO 6 PRESIDENT </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f green-icon"></i>
-                                            <i class="fab fa-twitter green-icon"></i>
-                                            <i class="fab fa-linkedin-in green-icon"></i>
+                                            <i class="fab fa-facebook-f spaceToRight green-icon"></i>
+                                            <i class="fab fa-twitter spaceToRight green-icon"></i>
+                                            <i class="fab fa-linkedin-in spaceToRight green-icon"></i>
                                         </li>
                                     </div>
                                 </div>
@@ -276,7 +276,7 @@
                         <div class="text-main-fourth">
                             <ul>
                                 <li class="li-vertical">
-                                    <h2>President Speech</h2>
+                                    <h2 class="spaceToRight">President Speech</h2>
                                 </li>
                                 <li>
                                     <p class="text-lorem">Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
@@ -300,8 +300,8 @@
                                 <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title green-title"> Latest </h1>
-                                <h1 class="title"> News </h1>
+                                <h1 class="title green-title spaceToRight"> Latest </h1>
+                                <h1 class="title spaceToRight"> News </h1>
                             </li>
                             <div class="box-textButton">
                                 <li>
@@ -355,12 +355,12 @@
                             </li>
                             <li>
                                 <div class="title-space">
-                                    <h1 class="title white-title"> Know </h1>
-                                    <h1 class="title"> First </h1>
+                                    <h1 class="title white-title spaceToRight"> Know </h1>
+                                    <h1 class="title spaceToRight"> First </h1>
                                 </div>
                             </li>
                             <li>
-                                <p>Follow closely and receive content about our company and the news of the current market.</p>
+                                <p class="paragrafo-sixth">Follow closely and receive content about our company and the news of the current market.</p>
                             </li>
                         </div>
                     </section>
@@ -392,8 +392,8 @@
                                 <h5 class="little-title"> SEND A MESSAGE </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title"> Get in</h1>
-                                <h1 class="title green-title"> Touch </h1>
+                                <h1 class="title spaceToRight"> Get in</h1>
+                                <h1 class="title green-title spaceToRight"> Touch </h1>
                             </li>
                             <li class="li-left">
                                 <p>We will respond to your message as soon as possible.</p>
@@ -410,7 +410,7 @@
                                 <input class="x-width-input" type="message" placeholder="Message">
                             </li>
                             <li>
-                                <button class="darkGreenButton">SEND</button>
+                                <button class="darkGreenButton marginButton">SEND</button>
                             </li>
                         </ul>
                     </section>
@@ -424,17 +424,17 @@
                                 <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>
                             </li>
                             <li class="li-contacts abbey">
-                                <i class="fas fa-phone-alt green-icon"></i>
+                                <i class="fas fa-phone-alt spaceToRight green-icon"></i>
                                 <br>
                                 <h5>+1(305)1234-5678</h5>
                             </li>
                             <li class="li-contacts abbey">
-                                <i class="fas fa-envelope green-icon"></i>
+                                <i class="fas fa-envelope spaceToRight green-icon"></i>
                                 <br>
                                 <h5>hello@example.com</h5>
                             </li>
                             <li class="li-contacts abbey">
-                                <i class="fas fa-map-marker-alt green-icon"></i>
+                                <i class="fas fa-map-marker-alt spaceToRight green-icon"></i>
                                 <br>
                             <h5>Main Avenue, 987</h5>
                             </li>
@@ -579,6 +579,8 @@ export default {
     width: 100%;
     border-radius: 20px;
     padding: 10px;
+    position: relative;
+    margin: 10px 0;
     }
 
     .text-img {
@@ -595,28 +597,32 @@ export default {
     #main-sixth {
         background-color: $wood-smoke;
         width: 100%;
-        height: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
      .container-main-sixth {
         width: 100%;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
 
 
     .section-main-sixth-left {
         display: flex;
-        //justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 100%;
     }
 
     .section-main-sixth-right {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
 
     .section-main-seventh-left {

@@ -3,17 +3,17 @@
         <div id="header-top">
             <ul class="horizontal-space">
                 <li class="li-horizontal">
-                    <i class="fas fa-clock"></i>
-                    <h5>Open hours Mon-Sat-9:00-18:00</h5>
+                    <i class="spaceToRight fas fa-clock"></i>
+                    <h5>Open Hours: Mon - Sat - 9:00 - 18:00</h5>
                 </li>
                 <li class="li-horizontal">
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="spaceToRight fas fa-phone-alt"></i>
                     <h5>+1(305)1234-5678</h5>
-                    <i class="fas fa-envelope"></i>
+                    <i class="spaceToRight fas fa-envelope"></i>
                     <h5>hello@example.com</h5>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="spaceToRight fab fa-facebook-f"></i>
+                    <i class="spaceToRight fab fa-twitter"></i>
+                    <i class="spaceToRight fab fa-linkedin-in"></i>
                 </li>
             </ul>
         </div>
@@ -27,11 +27,11 @@
                             <h3>GEN</h3>
                         </li>
                         <li class="li-horizontal">
-                            <h4>HOME</h4>
-                            <h4>ABOUT</h4>
-                            <h4>SERVICES</h4>
-                            <h4>TEAM</h4>
-                            <h4>BLOG</h4>
+                            <h4 class="spaceToRight">HOME</h4>
+                            <h4 class="spaceToRight">ABOUT</h4>
+                            <h4 class="spaceToRight">SERVICES</h4>
+                            <h4 class="spaceToRight">TEAM</h4>
+                            <h4 class="spaceToRight">BLOG</h4>
                             <i class="far fa-user"></i>
                             <button class="greenButton"> GET IN TOUCH </button>
                         </li>

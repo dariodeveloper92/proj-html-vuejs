@@ -4,44 +4,32 @@
             <div id="container-jumbotron-footer">
                 <img class="img-jumbotron" alt="jumbotron" src="../assets/bg-7.jpg">
                 <div class="box-faq">
-                    <section class="section-nexgen">
-                        <ul>
-                            <li>
-                                <div class="title-space">
-                                    <h1 class="green-subtitle"> NEX </h1>
-                                    <h1> GEN </h1>  
-                                </div>
-                            </li>
-                            <li>
-                                <p>A Functional HTML Template for Corporate & Business.</p>
-                            </li>
-                            <li>
-                                <a class="li-horizontal" href="#">
-                                    <i class="fas fa-phone-alt"></i>
-                                    <h5>+1(305)1234-5678</h5>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="li-horizontal"  href="#">
-                                    <i class="fas fa-envelope"></i>
-                                    <h5>hello@example.com</h5>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="li-horizontal"  href="#">
-                                    <i class="fas fa-map-marker-alt"></i>
+                    <section class="section-nexgen spaceToRight">
+                        <li>
+                            <div class="title-footer">
+                                <h3 class="green-subtitle"> NEX </h3>
+                                <h3> GEN </h3>  
+                            </div>
+                            <p class="paragrafo-seventh">A Functional HTML Template for Corporate & Business.</p>
+                            <a class="li-horizontal lightgray" href="#">
+                                <i class="lightgray fas fa-phone-alt"></i>
+                                <h5>+1(305)1234-5678</h5>
+                            </a>
+                                <a class="li-horizontal lightgray"  href="#">
+                                <i class="lightgray fas fa-envelope"></i>
+                                <h5>hello@example.com</h5>
+                            </a>
+                            <a class="li-horizontal lightgray"  href="#">
+                                <i class="lightgray fas fa-map-marker-alt"></i>
                                 <h5>Main Avenue, 987</h5>
-                                </a>
-                            </li>
-                            <li>
-                                <button class="transparentButton"> GET IN TOUCH </button>
-                            </li>
-                        </ul>
+                            </a>
+                            <button class="transparentButton"> GET IN TOUCH </button>
+                        </li>
                     </section>
-                    <section class="faq-about">
+                    <section class="faq-about spaceToRight">
                         <ul>
                             <li>
-                                <h1>About</h1>
+                                <h3 class="whitePalette">About</h3>
                                 <h5>The Company</h5>
                                 <h5>institutional</h5>
                                 <h5>Social & Events</h5>
@@ -51,10 +39,10 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="faq-services">
+                    <section class="faq-services spaceToRight">
                         <ul>
                             <li>
-                                <h1>Services</h1>
+                                <h3 class="whitePalette">Services</h3>
                                 <h5>Audit & Assurance</h5>
                                 <h5>Financial Advisory</h5>
                                 <h5>Analystics M&A</h5>
@@ -67,7 +55,7 @@
                     <section class="faq-support">
                         <ul>
                             <li>
-                                <h1>Support</h1>
+                                <h3 class="whitePalette">Support</h3>
                                 <h5>Responsibility</h5>
                                 <h5>Terms of Use</h5>
                                 <h5>About Cookies</h5>
@@ -119,29 +107,26 @@ export default {
         width: 100%;
         //height: 10%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         padding: 30px 0;
-        /* flex-wrap: wrap; */
+        color: lightgray;
     }
 
-        .section-nexgen,
+    .section-nexgen,
     .faq-about,
     .faq-services,
     .faq-support {
-        width: 250px;
-        height: 350px;
+        width: 200px;
+        height: 250px;
         //background-color:opacity($color: #000000);
         border: 3px solid gray; 
         border-radius: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        text-align: center;
         position: relative;
-        //opacity: 0.2;
-        //background: $shark;
-        //color: white;
+        font-size: 12px;
     }
 
     .section-nexgen {
