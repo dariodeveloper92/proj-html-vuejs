@@ -75,7 +75,9 @@
                 </li>
                 <li class="li-horizontal">
                     <i class="far fa-copyright"></i>
-                    <h5>2020 NEXGEN is Proudly Powered by Codings.</h5>
+                    <h5 class="spaceToRight">2020 NEXGEN is Proudly Powered by</h5>
+                    <h5 class="greenPalette spaceToRight">Codings</h5>
+                    <h5>.</h5>
                 </li>
             </ul>
         </div>
