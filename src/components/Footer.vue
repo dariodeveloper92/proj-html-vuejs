@@ -105,7 +105,6 @@ export default {
 
     .box-faq {
         width: 100%;
-        //height: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -119,7 +118,6 @@ export default {
     .faq-support {
         width: 200px;
         height: 250px;
-        //background-color:opacity($color: #000000);
         border: 3px solid gray; 
         border-radius: 10px;
         display: flex;

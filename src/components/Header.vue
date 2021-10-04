@@ -66,6 +66,7 @@ export default {
 
 <style  lang="scss">
 @import '../styles/vars.scss';
+
     /* header--------------------------------------- */
     header {
         width: 100%;
@@ -75,7 +76,6 @@ export default {
     #header-top {
         width: 100%;
         height: 10vh;
-        // background-color: blue;
         background-color: $smalt-blue;
     }
     
@@ -106,8 +106,4 @@ export default {
         display: flex;
         justify-content: center;
     }
-
-    /* common---------------------------------------- */
-    
-
 </style>

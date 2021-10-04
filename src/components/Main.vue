@@ -44,32 +44,30 @@
                 <section class="box-numbers">
                     <ul>
                         <li>
-                            <h1 class="title lightGreenPalette">128</h1>
-                            <h2>Certifications</h2>
+                            <h1 class="title lightGreenPalette number">128</h1>
+                            <h2 class="title-number">Certifications</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="title lightGreenPalette">230</h1>
-                            <h2>Employees</h2>
+                            <h1 class="title lightGreenPalette number">230</h1>
+                            <h2 class="title-number">Employees</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="title lightGreenPalette">517</h1>
-                            <h2>Customers</h2>
+                            <h1 class="title lightGreenPalette number">517</h1>
+                            <h2 class="title-number">Customers</h2>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <h1 class="title lightGreenPalette">94</h1>
-                            <h2>Countries Served</h2>
+                            <h1 class="title lightGreenPalette number">94</h1>
+                            <h2 class="title-number">Countries Served</h2>
                         </li>
                     </ul>
                 </section>
             </div>
-
-            
         </div>
         <!-- main-third -->
         <div id="main-third">
@@ -300,8 +298,8 @@
                                 <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title green-title spaceToRight"> Latest </h1>
-                                <h1 class="title spaceToRight"> News </h1>
+                                <h1 class="title spaceToRight"> Latest </h1>
+                                <h1 class="title green-title spaceToRight"> News </h1>
                             </li>
                             <div class="box-textButton">
                                 <li>
@@ -588,7 +586,7 @@ export default {
         bottom: 20px;
         padding: 5px;
         max-width: 70%;
-        font-size: 25px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;

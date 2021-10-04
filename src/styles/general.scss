@@ -78,7 +78,6 @@ h4 {
         position: absolute;
         font-size: 50px;
         color: white;
-        //background-color: transparent;
     }
 }
 
@@ -155,11 +154,9 @@ h4 {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    // text-align: center;
 }
 
 .section-right {
-    //position: relative;
     display: flex;
     justify-content: flex-end;
 }
@@ -182,7 +179,6 @@ h4 {
 
 .li-left {
     display: flex;
-    //text-align: center;
 }
 
 .li-contacts {
@@ -286,7 +282,6 @@ h4 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    //margin: 0 20%;
 }
 
 .teams {
@@ -310,14 +305,11 @@ h4 {
 }
 
 .box-section-fifth {
-    //display: flex;
-    //justify-content: center;
     width: 70%;
 }
 /* Title---------------------------------------- */
 .little-title {
     color: $fountain-blue;
-
 }
 
 .title {
@@ -355,7 +347,7 @@ h4 {
 
 .green-subtitle {
     background-color: $blue-lagoon;
-    color: $tradewind;
+    color: #00cad5;
 }
 
 /* Button Palette---------------------------------------- */
@@ -407,7 +399,6 @@ h4 {
     width: 70%;
     object-fit: contain;
     border-radius: 10px;
-    //height: 100%;
 }
 
 .black_icon {
@@ -421,4 +412,96 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Hover--------------------------------------------- */
+button,
+i,
+.img-team,
+.img-news {
+    &:hover,
+    &:active {
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+}
+
+.green-title,
+.green-subtitle {
+    &:hover,
+    &:active {
+        transform: scale(1.3);
+        cursor: pointer;
+        background-color: $blue-lagoon;
+        color: white;
+        animation: loading 1s linear infinite;
+        transform: rotate(360deg);
+        transition-duration: 1s;
+    }
+}
+
+.white-title {
+    &:hover,
+    &:active {
+        transform: scale(1.3);
+        cursor: pointer;
+        color: $blue-lagoon;
+        background-color: white;
+        animation: loading 1s linear infinite;
+        transform: rotate(360deg);
+        transition-duration: 1s;
+    }   
+}
+
+.number {
+    &:hover,
+    &:active {
+        transform: scale(1.3);
+        cursor: pointer;
+        color: $blue-lagoon;
+        background-color: white;
+        border-radius: 100px;
+
+    }
+}
+
+.title-number {
+    &:hover,
+    &:active {
+        transform: scale(1.4);
+        cursor: pointer;
+        background-color: $blue-lagoon;
+        color: white;
+        border-radius: 100px;
+    }
+}
+
+.faq-about,
+.faq-services,
+.faq-support {
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: $blue-lagoon;
+        color: white;
+    }
+}
+
+.width-input-black {
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: white;
+        color: $blue-lagoon;
+    } 
+}
+
+.width-input,
+.x-width-input {
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: $blue-lagoon;
+        color: white;
+    } 
 }
