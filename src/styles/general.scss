@@ -58,12 +58,28 @@ footer {
         border: 3px solid $gray-nurse;
     }
 
+    .width-input-black {
+        width: 300px;
+        padding: 10px 0;
+        border-radius: 5px;
+        background-color: $shark;
+        border: 3px solid $shark;
+        border: 3;
+        padding: 10px;
+    }
+
     .x-width-input {
         width: 400px;
         padding: 50px 0;
         border-radius: 5px;
         background-color: $gray-nurse;
         border: 3px solid $gray-nurse;
+    }
+
+    .vertical-input {
+        //display: flex;
+        //align-content: space-around;
+        //justify-items: center;
     }
     
     /* Dimensione ---------------------------------------- */
@@ -184,6 +200,12 @@ footer {
         display: flex;
         justify-content: flex-start;
         width: 70%;
+    }
+
+    .box-section-sixth {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
     }
 
     .box-cards {

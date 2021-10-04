@@ -342,32 +342,34 @@
         <!-- main-sixth -->
         <div id="main-sixth">
             <div class="container-section">
-                <div class="box-section">
+                <div class="box-section-sixth">
                     <section class="section-main-sixth-left">
-                        <ul>
-                            <li class="li-left">
+                        <div class="vertical-input">
+                            <li>
                                 <h5 class="little-title"> NEWSLETTER </h5>
                             </li>
-                            <li class="li-left">
+                            <li>
                                 <h1 class="title"> Know First </h1>
                             </li>
-                            <li class="li-left">
+                            <li>
                                 <p>Follow closely and receive content about our company and the news of the current market.</p>
                             </li>
-                        </ul>
+                        </div>
                     </section>
                     <section class="section-main-sixth-right">
-                        <ul>
-                            <li class="li-left">
-                                <input class="width-input" type="text" placeholder="Name">
+                        <div   class="vertical-input">
+                           <li>
+                                <input class="width-input-black" type="text" placeholder="Name">
                             </li>
+                            <br>
                             <li>
-                                <input class="width-input" type="text" placeholder="Email">
+                                <input class="width-input-black" type="text" placeholder="Email">
                             </li>
+                            <br>
                             <li>
                                 <button class="greenButton">SUBSCRIBE</button>
                             </li>
-                        </ul>
+                        </div>
                     </section>
                 </div>
             </div>    
@@ -403,7 +405,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="section-main-sixth-right">
+                    <section class="section-main-seventh-right">
                         <ul>
                             <li>
                                 <h2>Example Inc.</h2>
@@ -458,6 +460,8 @@ export default {
 
     /* main-first--------------------------------------- */
     #main-first {
+        width: 100%;
+        height: 100%;
         background-color: $white;
         color: $abbey;
     }
@@ -468,6 +472,8 @@ export default {
 
     /* main-second--------------------------------------- */
     #main-second {
+        width: 100%;
+        height: 100%;
         background-color: lightblue;
     }
 
@@ -503,6 +509,7 @@ export default {
         background-color: $white;
         color: black;
         width: 100%;
+        height: 100%;
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -527,8 +534,10 @@ export default {
 
     .section-main-fourth-right {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
         width: 40%;
+        height: 100%;
     }
  
     /* main-fifth--------------------------------------- */
@@ -576,6 +585,8 @@ export default {
     /* main-sixth--------------------------------------- */
     #main-sixth {
         background-color: $wood-smoke;
+        width: 100%;
+        height: 100%;
     }
 
      .container-main-sixth {
@@ -588,17 +599,26 @@ export default {
     .section-main-sixth-left {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 50%;
-        height: 20%;
     }
 
     .section-main-sixth-right {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .section-main-seventh-right {
+        display: flex;
         justify-content: flex-end;
         width: 50%;
     }
-    /* main-seventh--------------------------------------- */
+        /* main-seventh--------------------------------------- */
     #main-seventh {
+        width: 100%;
+        height: 100%;
         background-color: $white;
         color: $abbey;
     }
