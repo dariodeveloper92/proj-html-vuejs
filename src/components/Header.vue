@@ -23,7 +23,8 @@
                 <section class="section-top">
                     <ul class="horizontal-space">
                         <li class="li-horizontal">
-                            <h3>NEXGEN</h3>
+                            <h3 class="green-subtitle">NEX</h3>
+                            <h3>GEN</h3>
                         </li>
                         <li class="li-horizontal">
                             <h4>HOME</h4>
@@ -88,7 +89,6 @@ export default {
     #container-jumbotron {
         width: 100%;
         height: 100vh;
-        //position: relative;
     }
 
     .img-jumbotron {

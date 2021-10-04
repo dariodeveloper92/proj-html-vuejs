@@ -56,6 +56,19 @@ footer {
         font-size: 30px;
     }
 
+    .play-jumbotron {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .play {
+            position: absolute;
+            font-size: 50px;
+            color: white;
+            //background-color: transparent;
+        }
+}
+
     /* input ---------------------------------------- */
     .width-input {
         width: 190px;
@@ -81,12 +94,6 @@ footer {
         border-radius: 5px;
         background-color: $gray-nurse;
         border: 3px solid $gray-nurse;
-    }
-
-    .vertical-input {
-        //display: flex;
-        //align-content: space-around;
-        //justify-items: center;
     }
     
     /* Dimensione ---------------------------------------- */
@@ -297,7 +304,26 @@ footer {
         font-size: 10px;
         color: gray;
     }
+
+    .title-space {
+        display: flex;
+        justify-content: flex-start;
+    }
     
+    .green-title {
+        background-color: $gray-nurse;
+        color: $blue-lagoon;
+    }
+
+    .white-title {
+        background-color: $blue-lagoon;
+        color: white;
+    }
+
+    .green-subtitle {
+        background-color: $blue-lagoon;
+        color: $tradewind;
+    }
 
     /* Button Palette---------------------------------------- */
     .greenButton {
@@ -350,6 +376,15 @@ footer {
 
     .black_icon {
         color: black;
+    }
+
+    /* jumbotron---------------------------------------- */
+    #container-jumbotron-footer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 

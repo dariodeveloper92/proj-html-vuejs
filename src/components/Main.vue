@@ -10,14 +10,16 @@
                                 <h5 class="little-title"> INTRODUTION VIDEO </h5>
                             </li>
                             <li class="li-vertical">
-                                <h1 class="title"> Advisory Performance </h1>
+                                <h1 class="title"> Advisory </h1>
+                                <h1 class="title green-title">Performance</h1>
                             </li>
                             <li class="li-vertical">
                                 <p>Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making.</p>
                             </li>
                             <li class="li-vertical">
-                                <a href="#">
+                                <a href="#" class="play-jumbotron">
                                     <img class="box-img" alt="jumbotron" src="../assets/video-1.jpg">
+                                    <span class="play"><i class="fas fa-play"></i></span>
                                 </a>
                             </li>
                         </ul>
@@ -79,7 +81,8 @@
                                 <h5 class="little-title"> OUR BUSINESS AREAS </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title"> Excellence in Services </h1>
+                                <h1 class="title"> Excellence in</h1>
+                                <h1 class="title white-title">Services</h1>
                             </li>
                             <div class="box-textButton">
                                 <li>
@@ -183,7 +186,7 @@
             </div>
         </div>
         <!-- main-fourth -->
-        <div id="main-fourth" class="height-medium">
+        <div id="main-fourth">
             <div class="container-section">
                 <div class="box-section">
                     <section class="section-main-fourth-left">
@@ -193,7 +196,8 @@
                                     <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
                                 </li>
                                 <li class="li-left">
-                                    <h1 class="title"> Team of Experts </h1>
+                                    <h1 class="title green-title"> Team</h1>
+                                    <h1 class="title"> of Experts </h1>
                                 </li>
                                 <li class="li-left">
                                     <p>Etyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
@@ -296,7 +300,8 @@
                                 <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title"> Latest News </h1>
+                                <h1 class="title green-title"> Latest </h1>
+                                <h1 class="title"> News </h1>
                             </li>
                             <div class="box-textButton">
                                 <li>
@@ -344,12 +349,15 @@
             <div class="container-section">
                 <div class="box-section-sixth">
                     <section class="section-main-sixth-left">
-                        <div class="vertical-input">
+                        <div>
                             <li>
                                 <h5 class="little-title"> NEWSLETTER </h5>
                             </li>
                             <li>
-                                <h1 class="title"> Know First </h1>
+                                <div class="title-space">
+                                    <h1 class="title white-title"> Know </h1>
+                                    <h1 class="title"> First </h1>
+                                </div>
                             </li>
                             <li>
                                 <p>Follow closely and receive content about our company and the news of the current market.</p>
@@ -357,7 +365,7 @@
                         </div>
                     </section>
                     <section class="section-main-sixth-right">
-                        <div   class="vertical-input">
+                        <div  >
                            <li>
                                 <input class="width-input-black" type="text" placeholder="Name">
                             </li>
@@ -384,7 +392,8 @@
                                 <h5 class="little-title"> SEND A MESSAGE </h5>
                             </li>
                             <li class="li-left">
-                                <h1 class="title"> Get in Touch </h1>
+                                <h1 class="title"> Get in</h1>
+                                <h1 class="title green-title"> Touch </h1>
                             </li>
                             <li class="li-left">
                                 <p>We will respond to your message as soon as possible.</p>
@@ -595,9 +604,9 @@ export default {
 
     .section-main-sixth-left {
         display: flex;
-        justify-content: center;
+        //justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
 
     .section-main-sixth-right {

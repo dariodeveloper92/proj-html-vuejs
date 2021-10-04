@@ -1,13 +1,16 @@
 <template>
     <footer>
         <div id="footer-top">
-            <div id="container-jumbotron">
+            <div id="container-jumbotron-footer">
                 <img class="img-jumbotron" alt="jumbotron" src="../assets/bg-7.jpg">
                 <div class="box-faq">
                     <section class="section-nexgen">
                         <ul>
                             <li>
-                                <h1> NEXGEN </h1>
+                                <div class="title-space">
+                                    <h1 class="green-subtitle"> NEX </h1>
+                                    <h1> GEN </h1>  
+                                </div>
                             </li>
                             <li>
                                 <p>A Functional HTML Template for Corporate & Business.</p>
@@ -102,22 +105,19 @@ export default {
     /* footer------------------------------------ */
     footer {
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background-color: purple;
     }
 
     /* footer-top------------------------------------ */
     #footer-top {
         width: 100%;
-        height: 90vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 90%;
     }
 
     .box-faq {
         width: 100%;
-        height: 100%;
+        //height: 10%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -148,7 +148,7 @@ export default {
     /* footer-bottom----------------------------------- */
     #footer-bottom {
         width: 100%;
-        height: 10vh;
+        height: 10%;
         background-color: $wood-smoke;
     }
 </style>
