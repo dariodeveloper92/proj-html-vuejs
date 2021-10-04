@@ -81,16 +81,14 @@
                             <li class="li-left">
                                 <h1 class="title"> Excellence in Services </h1>
                             </li>
-                            <li class="li-left">
-                                <p class="paragrafo">We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="section-right">
-                        <ul>
-                            <li class="li-right-button">
-                                <button class="transparentButton"> SEE ALL </button>
-                            </li>
+                            <div class="box-textButton">
+                                <li>
+                                    <p class="paragrafo-third">We are leades in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
+                                </li>
+                                <li>
+                                    <button class="transparentButton"> SEE ALL </button>
+                                </li>
+                            </div>
                         </ul>
                     </section>
                 </div>
@@ -139,10 +137,6 @@
                             </li>
                         </ul>
                     </section>
-                </div>
-            </div>    
-            <div class="container-cards">
-                <div class="box-cards">
                     <section class="card">
                         <ul>
                             <li class="icons">
@@ -291,14 +285,12 @@
                     </section>
                 </div>
             </div>    
-            <!-- MODIFICARE -->
         </div>
-        <!-- MODIFICARE A QUI ----------------------------------------------------------------->
         <!-- main-fifth -->
         <div id="main-fifth">
             <div class="container-section">
-                <div class="box-section">
-                    <section class="section-left">
+                <div class="box-section-fifth">
+                    <section class="section-fifth">
                         <ul>
                             <li class="li-left">
                                 <h5 class="little-title"> OUR EDITORIAL CONTENT </h5>
@@ -306,16 +298,14 @@
                             <li class="li-left">
                                 <h1 class="title"> Latest News </h1>
                             </li>
-                            <li class="li-left">
-                                <p>Every week we publish content about what is best in the business world.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="section-right">
-                        <ul>
-                            <li class="li-right">
-                                <button class="darkGreenButton"> SEE ALL </button>
-                            </li>
+                            <div class="box-textButton">
+                                <li>
+                                    <p class="paragrafo-fifth">Every week we publish content about what is best in the business world.</p>
+                                </li>
+                                <li>
+                                    <button class="darkGreenButton"> SEE ALL </button>
+                                </li>
+                            </div>
                         </ul>
                     </section>
                 </div>
