@@ -4,7 +4,7 @@
         <div id="main-first">
             <div class="container-section">
                 <div class="box-section">
-                    <section class="section-center height-medium">
+                    <section class="section-center">
                         <ul>
                             <li class="li-vertical">
                                 <h5 class="little-title"> INTRODUTION VIDEO </h5>
@@ -27,7 +27,7 @@
         </div>
         <!-- main-second -->
         <div id="main-second">
-            <div id="container-banner" class="height-small">
+            <div id="container-banner">
                 <img class="img-jumbotron overlay" alt="jumbotron" src="../assets/bg-9.jpg">
                 <section class="section-center">
                     <ul>
@@ -211,9 +211,9 @@
                                             <h5 class="little-title-team"> CTO & CO-FOUNDER </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f black_icon"></i>
-                                            <i class="fab fa-twitter black_icon"></i>
-                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                            <i class="fab fa-facebook-f green-icon"></i>
+                                            <i class="fab fa-twitter green-icon"></i>
+                                            <i class="fab fa-linkedin-in green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -227,9 +227,9 @@
                                             <h5 class="little-title-team"> CHIEF PROCUREMENT </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f black_icon"></i>
-                                            <i class="fab fa-twitter black_icon"></i>
-                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                            <i class="fab fa-facebook-f green-icon"></i>
+                                            <i class="fab fa-twitter green-icon"></i>
+                                            <i class="fab fa-linkedin-in green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -243,9 +243,9 @@
                                             <h5 class="little-title-team"> CHIEF MARKETING </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f black_icon"></i>
-                                            <i class="fab fa-twitter black_icon"></i>
-                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                            <i class="fab fa-facebook-f green-icon"></i>
+                                            <i class="fab fa-twitter green-icon"></i>
+                                            <i class="fab fa-linkedin-in green-icon"></i>
                                         </li>
                                     </div>
                                     <div class="teams">
@@ -259,9 +259,9 @@
                                             <h5 class="little-title-team"> CEO 6 PRESIDENT </h5>
                                         </li>
                                         <li>
-                                            <i class="fab fa-facebook-f black_icon"></i>
-                                            <i class="fab fa-twitter black_icon"></i>
-                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                            <i class="fab fa-facebook-f green-icon"></i>
+                                            <i class="fab fa-twitter green-icon"></i>
+                                            <i class="fab fa-linkedin-in green-icon"></i>
                                         </li>
                                     </div>
                                 </div>
@@ -376,9 +376,9 @@
         </div>
         <!-- main-seventh -->
         <div id="main-seventh">
-            <div class="container-section height-medium-little">
-                <div class="box-section">
-                    <section class="section-main-sixth-left">
+            <div class="container-section">
+                <div class="box-section-seventh">
+                    <section class="section-main-seventh-left">
                         <ul>
                             <li class="li-left">
                                 <h5 class="little-title"> SEND A MESSAGE </h5>
@@ -389,15 +389,15 @@
                             <li class="li-left">
                                 <p>We will respond to your message as soon as possible.</p>
                             </li>
-                            <li class="li-left padding">
+                            <li class="li-input padding">
                                 <input class="width-input" type="text" placeholder="Name">
                                 <input class="width-input" type="text" placeholder="Email">
                             </li>
-                            <li class="li-left padding">
+                            <li class="li-input padding">
                                 <input class="width-input" type="text" placeholder="Phone">
                                 <input class="width-input" type="text" placeholder="More Info">
                             </li>
-                            <li class="li-left padding">
+                            <li class="li-input padding">
                                 <input class="x-width-input" type="message" placeholder="Message">
                             </li>
                             <li>
@@ -414,23 +414,20 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit.</p>
                                 <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>
                             </li>
-                            <li>
-                                <a class="li-contacts abbey" href="#">
-                                    <i class="fas fa-phone-alt abbey"></i>
-                                    <h5>+1(305)1234-5678</h5>
-                                </a>
+                            <li class="li-contacts abbey">
+                                <i class="fas fa-phone-alt green-icon"></i>
+                                <br>
+                                <h5>+1(305)1234-5678</h5>
                             </li>
-                            <li>
-                                <a class="li-contacts abbey"  href="#">
-                                    <i class="fas fa-envelope abbey"></i>
-                                    <h5>hello@example.com</h5>
-                                </a>
+                            <li class="li-contacts abbey">
+                                <i class="fas fa-envelope green-icon"></i>
+                                <br>
+                                <h5>hello@example.com</h5>
                             </li>
-                            <li>
-                                <a class="li-contacts abbey"  href="#">
-                                    <i class="fas fa-map-marker-alt abbey"></i>
-                                <h5>Main Avenue, 987</h5>
-                                </a>
+                            <li class="li-contacts abbey">
+                                <i class="fas fa-map-marker-alt green-icon"></i>
+                                <br>
+                            <h5>Main Avenue, 987</h5>
                             </li>
                             <li>
                                 <button class="transparentButton greenPalette"> VIEW MAP </button>
@@ -461,19 +458,19 @@ export default {
     /* main-first--------------------------------------- */
     #main-first {
         width: 100%;
-        height: 100%;
+        height: 90vh;
         background-color: $white;
         color: $abbey;
     }
     .box-img {
         object-fit: contain;
-        width: 100%;
+        width: 70%;
     }
 
     /* main-second--------------------------------------- */
     #main-second {
         width: 100%;
-        height: 100%;
+        height: 58vh;
         background-color: lightblue;
     }
 
@@ -610,15 +607,22 @@ export default {
         width: 50%;
     }
 
+    .section-main-seventh-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
     .section-main-seventh-right {
         display: flex;
         justify-content: flex-end;
-        width: 50%;
+        width: 40%;
     }
         /* main-seventh--------------------------------------- */
     #main-seventh {
         width: 100%;
-        height: 100%;
+        height: 90vh;
         background-color: $white;
         color: $abbey;
     }
