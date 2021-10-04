@@ -276,13 +276,13 @@
                         <div class="text-main-fourth">
                             <ul>
                                 <li class="li-vertical">
-                                    <h2>Services</h2>
+                                    <h2>President Speech</h2>
                                 </li>
                                 <li>
-                                    <p>Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
-                                    <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu.</p>
-                                    <p>Duis ut hendreit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenantis a dui et laoreet.</p>
-                                    <h4>T. Johnson</h4>
+                                    <p class="text-lorem">Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
+                                    <p class="text-lorem">Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu.</p>
+                                    <p class="text-lorem">Duis ut hendreit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenantis a dui et laoreet.</p>
+                                    <h4 class="text-lorem">T. Johnson</h4>
                                 </li>
                             </ul>
                         </div>
@@ -524,11 +524,14 @@ export default {
 
     .text-main-fourth {
         width: 250px;
-        height: 80%;
+        height: 60%;
+        padding: 10px;
         background-color: $surfie-green;
         color: $white;
         border-radius: 3px;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section-main-fourth-left {

@@ -139,6 +139,9 @@ export default {
         align-items: center;
         text-align: center;
         position: relative;
+        //opacity: 0.2;
+        //background: $shark;
+        //color: white;
     }
 
     .section-nexgen {
