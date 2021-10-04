@@ -174,7 +174,7 @@ footer {
     .box-section {
         display: flex;
         justify-content: flex-start;
-        width: 60%;
+        width: 70%;
     }
 
     .box-cards {
@@ -192,6 +192,27 @@ footer {
         text-align: center;
     }
 
+    .box-team {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        //margin: 0 20%;
+    }
+
+    .teams {
+        width: 150px;
+        height: 170px;
+        border: 3px solid blue;
+        position: relative
+        margin 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     /* Title---------------------------------------- */
     .little-title {
         color: $fountain-blue;
@@ -201,6 +222,16 @@ footer {
     .title {
         font-size: 40px;
     }
+
+    .title-team {
+        font-size: 20px;
+    }
+
+    .little-title-team {
+        font-size: 10px;
+        color: gray;
+    }
+    
 
     /* Button Palette---------------------------------------- */
     .greenButton {
@@ -242,3 +273,16 @@ footer {
     .lightGreenPalette {
        color: $fountain-blue;
     }
+
+    /* Img team---------------------------------------- */
+    .img-team {
+        width: 70%;
+        object-fit: contain;
+        border-radius: 10px;
+        //height: 100%;
+    }
+
+    .black_icon {
+        color: black;
+    }
+

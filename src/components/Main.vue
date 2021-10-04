@@ -192,34 +192,89 @@
         <div id="main-fourth" class="height-medium">
             <div class="container-section">
                 <div class="box-section">
-                    <section class="section-main-sixth-left">
-                        <ul>
-                            <li class="li-left">
-                                <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
-                            </li>
-                            <li class="li-left">
-                                <h1 class="title"> Team of Experts </h1>
-                            </li>
-                            <li class="li-left">
-                                <p>Eyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
-                            </li>
-                            <li class="li-left">
-                                <input class="width-input" type="text" placeholder="Name">
-                                <input class="width-input" type="text" placeholder="Email">
-                            </li>
-                            <li>
-                                <input class="width-input" type="text" placeholder="Phone">
-                                <input class="width-input" type="text" placeholder="More Info">
-                            </li>
-                            <li>
-                                <input class="x-width-input" type="message" placeholder="Message">
-                            </li>
-                            <li>
-                                <button class="darkGreenButton">SEND</button>
-                            </li>
-                        </ul>
+                    <section class="section-main-fourth-left">
+                        <div>
+                            <ul>
+                                <li class="li-left">
+                                    <h5 class="little-title"> WE LIKE WHAT WE DO </h5>
+                                </li>
+                                <li class="li-left">
+                                    <h1 class="title"> Team of Experts </h1>
+                                </li>
+                                <li class="li-left">
+                                    <p>Etyhics and integrity are the bases on wich our professionals build their careers. Hey are fundamentals that become daily attitudes.</p>
+                                </li>
+                                <!-- Team -->
+                                <div class="box-team">
+                                    <div class="teams">
+                                        <img class="img-team" alt="jumbotron" src="../assets/team-1.jpg">
+                                    </div>
+                                    <div class="teams">
+                                        <li>
+                                            <h1 class="title-team"> David Cooper </h1>
+                                        </li>
+                                        <li>
+                                            <h5 class="little-title-team"> CTO & CO-FOUNDER </h5>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-facebook-f black_icon"></i>
+                                            <i class="fab fa-twitter black_icon"></i>
+                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                        </li>
+                                    </div>
+                                    <div class="teams">
+                                        <img class="img-team" alt="jumbotron" src="../assets/team-3.jpg">
+                                    </div>
+                                    <div class="teams">
+                                        <li>
+                                            <h1 class="title-team"> Oliver Jones </h1>
+                                        </li>
+                                        <li>
+                                            <h5 class="little-title-team"> CHIEF PROCUREMENT </h5>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-facebook-f black_icon"></i>
+                                            <i class="fab fa-twitter black_icon"></i>
+                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                        </li>
+                                    </div>
+                                    <div class="teams">
+                                        <img class="img-team" alt="jumbotron" src="../assets/team-2.jpg">
+                                    </div>
+                                    <div class="teams">
+                                        <li>
+                                            <h1 class="title-team"> Emma Lopex </h1>
+                                        </li>
+                                        <li>
+                                            <h5 class="little-title-team"> CHIEF MARKETING </h5>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-facebook-f black_icon"></i>
+                                            <i class="fab fa-twitter black_icon"></i>
+                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                        </li>
+                                    </div>
+                                    <div class="teams">
+                                        <img class="img-team" alt="jumbotron" src="../assets/team-4.jpg">
+                                    </div>
+                                    <div class="teams">
+                                        <li>
+                                            <h1 class="title-team">  T. Johnson </h1>
+                                        </li>
+                                        <li>
+                                            <h5 class="little-title-team"> CEO 6 PRESIDENT </h5>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-facebook-f black_icon"></i>
+                                            <i class="fab fa-twitter black_icon"></i>
+                                            <i class="fab fa-linkedin-in black_icon"></i>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
                     </section>
-                    <section class="section-main-sixth-right">
+                    <section class="section-main-fourth-right">
                         <div class="text-main-fourth">
                             <ul>
                                 <li class="li-vertical">
@@ -472,6 +527,19 @@ export default {
         border-radius: 3px;
         display: flex;
     }
+
+    .section-main-fourth-left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+    }
+
+    .section-main-fourth-right {
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+    }
  
     /* main-fifth--------------------------------------- */
     #main-fifth {
@@ -531,6 +599,7 @@ export default {
         display: flex;
         justify-content: center;
         width: 50%;
+        height: 20%;
     }
 
     .section-main-sixth-right {

@@ -88,7 +88,7 @@ export default {
     #container-jumbotron {
         width: 100%;
         height: 100vh;
-        position: relative;
+        //position: relative;
     }
 
     .img-jumbotron {
