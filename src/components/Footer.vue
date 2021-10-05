@@ -31,7 +31,7 @@
                             <li>
                                 <h3 class="whitePalette">About</h3>
                             </li>
-                            <div class="navbarFaq"> <!-- navbar Faq -->
+                            <div class="menuFaq"> <!-- menu Faq -->
                                 <li class="li-navbar spaceNavbar" v-for="(faqAbout, index) in faqAbouts" :key="index">
                                     <a :class="(faqAbout.current)" href="faqAbout.url">
                                         <h4 class="lightgray">{{ faqAbout.text }}</h4>
@@ -45,7 +45,7 @@
                             <li>
                                 <h3 class="whitePalette">Services</h3>
                             </li>
-                            <div class="navbarFaq"><!-- navbar Faq -->
+                            <div class="menuFaq"><!-- menu Faq -->
                                 <li class="li-navbar spaceNavbar" v-for="(faqService, index) in faqServices" :key="index">
                                     <a :class="(faqService.current)" href="faqService.url">
                                         <h4 class="lightgray">{{ faqService.text }}</h4>
@@ -59,7 +59,7 @@
                             <li>
                                 <h3 class="whitePalette">Support</h3>
                             </li>
-                            <div class="navbarFaq"><!-- navbar Faq -->
+                            <div class="menuFaq"><!-- menu Faq -->
                                 <li class="li-navbar spaceNavbar" v-for="(faqSupport, index) in faqSupports" :key="index">
                                     <a :class="(faqSupport.current)" href="faqSupport.url">
                                         <h4 class="lightgray">{{ faqSupport.text }}</h4>
