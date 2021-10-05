@@ -26,12 +26,14 @@
                             <h3 class="green-subtitle">NEX</h3>
                             <h3>GEN</h3>
                         </li>
-                        <li class="li-horizontal">
-                            <h4 class="spaceToRight">HOME</h4>
-                            <h4 class="spaceToRight">ABOUT</h4>
-                            <h4 class="spaceToRight">SERVICES</h4>
-                            <h4 class="spaceToRight">TEAM</h4>
-                            <h4 class="spaceToRight">BLOG</h4>
+                        <div class="navbarMenu">
+                            <li class="li-navbar spaceNavbar" v-for="(link, index) in links" :key="index">
+                                <a :class="(link.current)" href="link.url">
+                                    <h4>{{ link.text }}</h4>
+                                </a>
+                            </li>
+                        </div>
+                        <li>    
                             <i class="far fa-user"></i>
                             <button class="greenButton"> GET IN TOUCH </button>
                         </li>
@@ -61,6 +63,37 @@
 <script>
 export default {
     name: 'Header',
+    data() {
+        return {
+            links: [
+                {
+                    text: "HOME",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "ABOUT",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "SERVICES",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "TEAM",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "BLOG",
+                    url: "#",
+                    current: false,
+                },
+            ]
+        }
+    }
 }
 </script>
 

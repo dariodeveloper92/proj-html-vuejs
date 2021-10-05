@@ -30,19 +30,28 @@
                         <ul>
                             <li>
                                 <h3 class="whitePalette">About</h3>
-                                <h5>The Company</h5>
-                                <h5>institutional</h5>
-                                <h5>Social & Events</h5>
-                                <h5>Innovation</h5>
-                                <h5>Environment</h5>
-                                <h5>Technology</h5>
-                            </li>
+                            </li>    
+                            <!-- <div class="navbarMenu">
+                                <li class="li-navbar spaceNavbar" v-for="(faqAbout, index) in faqAbouts" :key="index">
+                                    <a :class="(faqAbout.current)" href="faqAbout.url">
+                                        <h5>{{ faqAbout.text }}</h5>
+                                    </a>
+                                </li>
+                            </div> -->
                         </ul>
                     </section>
                     <section class="faq-services spaceToRight">
                         <ul>
                             <li>
                                 <h3 class="whitePalette">Services</h3>
+                            </li>
+                            <!-- <div class="navbarMenu">
+                                <li class="li-navbar spaceNavbar" v-for="(faqService, index) in faqServices" :key="index">
+                                    <a :class="(faqService.current)" href="faqService.url">
+                                        <h5>{{ faqService.text }}</h5>
+                                    </a>
+                                </li> -->
+                            </div>    
                                 <h5>Audit & Assurance</h5>
                                 <h5>Financial Advisory</h5>
                                 <h5>Analystics M&A</h5>
@@ -87,6 +96,106 @@
 <script>
 export default {
     name: 'Footer',
+    //data() {
+        // return {
+        //     faqAbouts: [
+        //         {
+        //             text: "The Company",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //         {
+        //             text: "institutional",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //         {
+        //             text: "Social & Events",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //         {
+        //             text: "Innovation",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //         {
+        //             text: "Environment",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //         {
+        //             text: "Technology",
+        //             url: "#",
+        //             current: false,
+        //         },
+        //     ]
+            // faqServices: [
+            //     {
+            //         text: "The Company",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "institutional",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Social & Events",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Innovation",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Environment",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Technology",
+            //         url: "#",
+            //         current: false,
+            //     },
+            // ]
+            // faqSupports: [
+            //     {
+            //         text: "The Company",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "institutional",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Social & Events",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Innovation",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Environment",
+            //         url: "#",
+            //         current: false,
+            //     },
+            //     {
+            //         text: "Technology",
+            //         url: "#",
+            //         current: false,
+            //     },
+            // ]
+        //}
+    //}
 }
 </script>
 

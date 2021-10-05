@@ -56,6 +56,11 @@ h4 {
     margin: 0 10px 0 0;
 }
 
+.spaceNavbar{
+    margin: 0 0 0 0;
+}
+
+
 .marginButton {
     margin: 20px 0;
 }
@@ -135,6 +140,17 @@ h4 {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.li-navbar {
+    position: relative;
+    //left: 100px;
+}
+
+.navbarMenu {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
 }
 
 .section-left {
