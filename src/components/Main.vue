@@ -274,7 +274,7 @@
                         <div class="text-main-fourth">
                             <ul>
                                 <li class="li-vertical">
-                                    <h2 class="spaceToRight">President Speech</h2>
+                                    <h2>President Speech</h2>
                                 </li>
                                 <li>
                                     <p class="text-lorem">Lorem ipsum dolor sit amet, consecutur adipiscing elit. Praesent ut lacinia diam. </p>
@@ -522,14 +522,15 @@ export default {
 
     .text-main-fourth {
         width: 250px;
-        height: 60%;
-        padding: 10px;
+        height: 400px;
+        padding: 15px;
         background-color: $surfie-green;
         color: $white;
         border-radius: 3px;
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .section-main-fourth-left {

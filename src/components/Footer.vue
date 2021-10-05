@@ -30,14 +30,14 @@
                         <ul>
                             <li>
                                 <h3 class="whitePalette">About</h3>
-                            </li>    
-                            <!-- <div class="navbarMenu">
+                            </li>
+                            <div class="navbarFaq"> <!-- navbar Faq -->
                                 <li class="li-navbar spaceNavbar" v-for="(faqAbout, index) in faqAbouts" :key="index">
                                     <a :class="(faqAbout.current)" href="faqAbout.url">
-                                        <h5>{{ faqAbout.text }}</h5>
+                                        <h4 class="lightgray">{{ faqAbout.text }}</h4>
                                     </a>
                                 </li>
-                            </div> -->
+                            </div>    
                         </ul>
                     </section>
                     <section class="faq-services spaceToRight">
@@ -45,33 +45,27 @@
                             <li>
                                 <h3 class="whitePalette">Services</h3>
                             </li>
-                            <!-- <div class="navbarMenu">
+                            <div class="navbarFaq"><!-- navbar Faq -->
                                 <li class="li-navbar spaceNavbar" v-for="(faqService, index) in faqServices" :key="index">
                                     <a :class="(faqService.current)" href="faqService.url">
-                                        <h5>{{ faqService.text }}</h5>
+                                        <h4 class="lightgray">{{ faqService.text }}</h4>
                                     </a>
-                                </li> -->
-                            </div>    
-                                <h5>Audit & Assurance</h5>
-                                <h5>Financial Advisory</h5>
-                                <h5>Analystics M&A</h5>
-                                <h5>Middle Marketing</h5>
-                                <h5>Legal Consulting</h5>
-                                <h5>Regulatory Risk</h5>
-                            </li>
+                                </li>
+                            </div>       
                         </ul>
                     </section>
                     <section class="faq-support">
                         <ul>
                             <li>
                                 <h3 class="whitePalette">Support</h3>
-                                <h5>Responsibility</h5>
-                                <h5>Terms of Use</h5>
-                                <h5>About Cookies</h5>
-                                <h5>Privacy Policy</h5>
-                                <h5>Accessibility</h5>
-                                <h5>Information</h5>
                             </li>
+                            <div class="navbarFaq"><!-- navbar Faq -->
+                                <li class="li-navbar spaceNavbar" v-for="(faqSupport, index) in faqSupports" :key="index">
+                                    <a :class="(faqSupport.current)" href="faqSupport.url">
+                                        <h4 class="lightgray">{{ faqSupport.text }}</h4>
+                                    </a>
+                                </li>
+                            </div>       
                         </ul>
                     </section>
                 </div>
@@ -96,106 +90,106 @@
 <script>
 export default {
     name: 'Footer',
-    //data() {
-        // return {
-        //     faqAbouts: [
-        //         {
-        //             text: "The Company",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //         {
-        //             text: "institutional",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //         {
-        //             text: "Social & Events",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //         {
-        //             text: "Innovation",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //         {
-        //             text: "Environment",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //         {
-        //             text: "Technology",
-        //             url: "#",
-        //             current: false,
-        //         },
-        //     ]
-            // faqServices: [
-            //     {
-            //         text: "The Company",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "institutional",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Social & Events",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Innovation",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Environment",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Technology",
-            //         url: "#",
-            //         current: false,
-            //     },
-            // ]
-            // faqSupports: [
-            //     {
-            //         text: "The Company",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "institutional",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Social & Events",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Innovation",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Environment",
-            //         url: "#",
-            //         current: false,
-            //     },
-            //     {
-            //         text: "Technology",
-            //         url: "#",
-            //         current: false,
-            //     },
-            // ]
-        //}
-    //}
+    data() {
+        return {
+            faqAbouts: [
+                {
+                    text: "The Company",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "institutional",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Social & Events",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Innovation",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Environment",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Technology",
+                    url: "#",
+                    current: false,
+                },
+            ],
+            faqServices: [
+                {
+                    text: "Audit & Assurance",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Financial Advisory",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: " Analystics M&A",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Middle Marketing",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Legal Consulting",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Regulatory Risk",
+                    url: "#",
+                    current: false,
+                },
+            ],
+            faqSupports: [
+                {
+                    text: "Responsability",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Terms of Use",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "About Cookies",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Privacy Policy",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Accessibility",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Information",
+                    url: "#",
+                    current: false,
+                },
+            ],
+        }
+    }
 }
 </script>
 

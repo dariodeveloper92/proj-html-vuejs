@@ -26,10 +26,10 @@
                             <h3 class="green-subtitle">NEX</h3>
                             <h3>GEN</h3>
                         </li>
-                        <div class="navbarMenu">
-                            <li class="li-navbar spaceNavbar" v-for="(link, index) in links" :key="index">
-                                <a :class="(link.current)" href="link.url">
-                                    <h4>{{ link.text }}</h4>
+                        <div class="navbarMenu"><!-- navbar Menu -->
+                            <li class="li-navbar spaceNavbar" v-for="(navBar, index) in navBars" :key="index">
+                                <a :class="(navBar.current)" href="navBar.url">
+                                    <h4>{{ navBar.text }}</h4>
                                 </a>
                             </li>
                         </div>
@@ -65,7 +65,7 @@ export default {
     name: 'Header',
     data() {
         return {
-            links: [
+            navBars: [
                 {
                     text: "HOME",
                     url: "#",
